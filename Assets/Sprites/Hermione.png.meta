@@ -1,0 +1,2591 @@
+fileFormatVersion: 2
+guid: c068f6e73b96f11479226b4425ecb23e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6139747429810264387
+    second: Hermione_0
+  - first:
+      213: -3710694925998980542
+    second: Hermione_1
+  - first:
+      213: -8738927714937969245
+    second: Hermione_2
+  - first:
+      213: 2320557197707288647
+    second: Hermione_3
+  - first:
+      213: -1162492530286579930
+    second: Hermione_4
+  - first:
+      213: -5464973450836770706
+    second: Hermione_5
+  - first:
+      213: -8753841047312895975
+    second: Hermione_6
+  - first:
+      213: -2638806804228977258
+    second: Hermione_7
+  - first:
+      213: -8368909747207782014
+    second: Hermione_8
+  - first:
+      213: -1676717087776324868
+    second: Hermione_9
+  - first:
+      213: 905752701649970378
+    second: Hermione_10
+  - first:
+      213: 8507933729817060334
+    second: Hermione_11
+  - first:
+      213: -5895739478271268800
+    second: Hermione_12
+  - first:
+      213: -8539156038906473155
+    second: Hermione_13
+  - first:
+      213: -1953353132898328065
+    second: Hermione_14
+  - first:
+      213: -8070302134734087129
+    second: Hermione_15
+  - first:
+      213: 1534521611124403977
+    second: Hermione_16
+  - first:
+      213: 4419309062451392381
+    second: Hermione_17
+  - first:
+      213: 4139359593570108328
+    second: Hermione_18
+  - first:
+      213: -1108976199906390904
+    second: Hermione_19
+  - first:
+      213: -5440504994685547035
+    second: Hermione_20
+  - first:
+      213: 1516271703884322824
+    second: Hermione_21
+  - first:
+      213: -5658524654146097258
+    second: Hermione_22
+  - first:
+      213: 1579125303272780502
+    second: Hermione_23
+  - first:
+      213: -5125527564697681076
+    second: Hermione_24
+  - first:
+      213: -3858667708560601241
+    second: Hermione_25
+  - first:
+      213: -6682979158715890246
+    second: Hermione_26
+  - first:
+      213: -317561387168456571
+    second: Hermione_27
+  - first:
+      213: -5537052147122122231
+    second: Hermione_28
+  - first:
+      213: -117431991704793404
+    second: Hermione_29
+  - first:
+      213: -8950488179840524998
+    second: Hermione_30
+  - first:
+      213: -5862023572135687000
+    second: Hermione_31
+  - first:
+      213: -6924738491210823508
+    second: Hermione_32
+  - first:
+      213: -1599095570992988012
+    second: Hermione_33
+  - first:
+      213: -1409669742889092414
+    second: Hermione_34
+  - first:
+      213: 6888887102470172729
+    second: Hermione_35
+  - first:
+      213: 3678442292550664520
+    second: Hermione_36
+  - first:
+      213: 7092472540375254777
+    second: Hermione_37
+  - first:
+      213: -3615241616802729204
+    second: Hermione_38
+  - first:
+      213: -6542835860102802978
+    second: Hermione_39
+  - first:
+      213: -2446535422230409094
+    second: Hermione_40
+  - first:
+      213: -7871189119765640059
+    second: Hermione_41
+  - first:
+      213: 6343507936775459979
+    second: Hermione_42
+  - first:
+      213: 6273844084297149868
+    second: Hermione_43
+  - first:
+      213: 7888005090544925749
+    second: Hermione_44
+  - first:
+      213: 6855493201912254114
+    second: Hermione_45
+  - first:
+      213: 5940794015835278819
+    second: Hermione_46
+  - first:
+      213: -8110528980110438614
+    second: Hermione_47
+  - first:
+      213: 2500006516992108076
+    second: Hermione_48
+  - first:
+      213: -7900476319365833660
+    second: Hermione_49
+  - first:
+      213: -8000548911127999928
+    second: Hermione_50
+  - first:
+      213: -1996783074067886496
+    second: Hermione_51
+  - first:
+      213: 8572584103269062396
+    second: Hermione_52
+  - first:
+      213: 1241145081295976592
+    second: Hermione_53
+  - first:
+      213: -4552081271314518200
+    second: Hermione_54
+  - first:
+      213: 4553682341078797598
+    second: Hermione_55
+  - first:
+      213: 8960043078000127089
+    second: Hermione_56
+  - first:
+      213: -4065901337905753118
+    second: Hermione_57
+  - first:
+      213: 8990332299571411379
+    second: Hermione_58
+  - first:
+      213: 6970977349397512254
+    second: Hermione_59
+  - first:
+      213: -6592812171372428277
+    second: Hermione_60
+  - first:
+      213: 6957683065620354395
+    second: Hermione_61
+  - first:
+      213: 8988307788598841821
+    second: Hermione_62
+  - first:
+      213: 4572437706320668998
+    second: Hermione_63
+  - first:
+      213: 2144406309596812091
+    second: Hermione_64
+  - first:
+      213: -572908689981300907
+    second: Hermione_65
+  - first:
+      213: -4496690362080516476
+    second: Hermione_66
+  - first:
+      213: 1427516225360685195
+    second: Hermione_67
+  - first:
+      213: 260404519111939638
+    second: Hermione_68
+  - first:
+      213: 6623814596148267647
+    second: Hermione_69
+  - first:
+      213: 6550885532545058123
+    second: Hermione_70
+  - first:
+      213: 1762230049735028012
+    second: Hermione_71
+  - first:
+      213: 3988192464824059842
+    second: Hermione_72
+  - first:
+      213: -8406908577602980162
+    second: Hermione_73
+  - first:
+      213: 2521033044453599354
+    second: Hermione_74
+  - first:
+      213: -6206100709167499983
+    second: Hermione_75
+  - first:
+      213: 6207379875660777776
+    second: Hermione_76
+  - first:
+      213: -1767791517734636800
+    second: Hermione_77
+  - first:
+      213: -6296968732287279602
+    second: Hermione_78
+  - first:
+      213: 3896754029122914155
+    second: Hermione_79
+  - first:
+      213: -2695790602819454315
+    second: Hermione_80
+  - first:
+      213: -7599825646581065289
+    second: Hermione_81
+  - first:
+      213: 6989630422575520780
+    second: Hermione_82
+  - first:
+      213: 8152692455334630362
+    second: Hermione_83
+  - first:
+      213: -4856126054677197908
+    second: Hermione_84
+  - first:
+      213: 3985647441603316968
+    second: Hermione_85
+  - first:
+      213: -1959395470075014013
+    second: Hermione_86
+  - first:
+      213: -1246925958172134595
+    second: Hermione_87
+  - first:
+      213: 595565694758844153
+    second: Hermione_88
+  - first:
+      213: 6568042556640165910
+    second: Hermione_89
+  - first:
+      213: 7023786591437264968
+    second: Hermione_90
+  - first:
+      213: -2685938322372880981
+    second: Hermione_91
+  - first:
+      213: 5329460393123924288
+    second: Hermione_92
+  - first:
+      213: 6149991678747569544
+    second: Hermione_93
+  - first:
+      213: 5745634712351421143
+    second: Hermione_94
+  - first:
+      213: 5238748178338420755
+    second: Hermione_95
+  - first:
+      213: -2850644774599663498
+    second: Hermione_96
+  - first:
+      213: 8632385188813647087
+    second: Hermione_97
+  - first:
+      213: 811387739195040978
+    second: Hermione_98
+  - first:
+      213: -2186768943583540958
+    second: Hermione_99
+  - first:
+      213: -5603609103725566642
+    second: Hermione_100
+  - first:
+      213: 2094903402390752191
+    second: Hermione_101
+  - first:
+      213: 5463844299715179225
+    second: Hermione_102
+  - first:
+      213: 1644515380255297726
+    second: Hermione_103
+  - first:
+      213: -290140052063451907
+    second: Hermione_104
+  - first:
+      213: 4509773535315443049
+    second: Hermione_105
+  - first:
+      213: -6716206109795267905
+    second: Hermione_106
+  - first:
+      213: 2707741539492076349
+    second: Hermione_107
+  - first:
+      213: -2999957082447162426
+    second: Hermione_108
+  - first:
+      213: -3019660074434670266
+    second: Hermione_109
+  - first:
+      213: -4490910182502342945
+    second: Hermione_110
+  - first:
+      213: 4250507221609348433
+    second: Hermione_111
+  - first:
+      213: 6108200902865813328
+    second: Hermione_112
+  - first:
+      213: 4544660660533926637
+    second: Hermione_113
+  - first:
+      213: -6877780858257975943
+    second: Hermione_114
+  - first:
+      213: -3189731749723037911
+    second: Hermione_115
+  - first:
+      213: -5518841264879881791
+    second: Hermione_116
+  - first:
+      213: 1376593794363584244
+    second: Hermione_117
+  - first:
+      213: -4574540109677331446
+    second: Hermione_118
+  - first:
+      213: 5817306700744676488
+    second: Hermione_119
+  - first:
+      213: -238398517800867784
+    second: Hermione_120
+  - first:
+      213: -8759798844597628889
+    second: Hermione_121
+  - first:
+      213: 1624637305890722617
+    second: Hermione_122
+  - first:
+      213: 8696826373879213467
+    second: Hermione_123
+  - first:
+      213: 2677391995525462338
+    second: Hermione_124
+  - first:
+      213: -5596197196833459248
+    second: Hermione_125
+  - first:
+      213: -6233222423606396740
+    second: Hermione_126
+  - first:
+      213: 4561336942647461429
+    second: Hermione_127
+  - first:
+      213: -3157167192139150776
+    second: Hermione_128
+  - first:
+      213: -3030306699027409355
+    second: Hermione_129
+  - first:
+      213: -1623988531878642138
+    second: Hermione_130
+  - first:
+      213: -6270608796634406605
+    second: Hermione_131
+  - first:
+      213: 5551795088757684759
+    second: Hermione_132
+  - first:
+      213: 8197977794200625431
+    second: Hermione_133
+  - first:
+      213: -190291373758456291
+    second: Hermione_134
+  - first:
+      213: 4827070512296369498
+    second: Hermione_135
+  - first:
+      213: -2025528659170460877
+    second: Hermione_136
+  - first:
+      213: 3737610738200799613
+    second: Hermione_137
+  - first:
+      213: -3592400384006156450
+    second: Hermione_138
+  - first:
+      213: -8529640553133299659
+    second: Hermione_139
+  - first:
+      213: 5810168477249663033
+    second: Hermione_140
+  - first:
+      213: -3449154622102251371
+    second: Hermione_141
+  - first:
+      213: -8998217031573798088
+    second: Hermione_142
+  - first:
+      213: -3038981956193621212
+    second: Hermione_143
+  - first:
+      213: 349163160942124016
+    second: Hermione_144
+  - first:
+      213: -1922511786095895398
+    second: Hermione_145
+  - first:
+      213: -3507563988517210310
+    second: Hermione_146
+  - first:
+      213: -2639222781181538187
+    second: Hermione_147
+  - first:
+      213: 6643247595379196775
+    second: Hermione_148
+  - first:
+      213: -1007240904661179748
+    second: Hermione_149
+  - first:
+      213: -4642426043079212414
+    second: Hermione_150
+  - first:
+      213: -1778396258160931183
+    second: Hermione_151
+  - first:
+      213: 7830978135027305408
+    second: Hermione_152
+  - first:
+      213: 8630754778100529309
+    second: Hermione_153
+  - first:
+      213: 4596733967855907970
+    second: Hermione_154
+  - first:
+      213: 5610547596717647300
+    second: Hermione_155
+  - first:
+      213: 6654471609209287561
+    second: Hermione_156
+  - first:
+      213: 1811784134290624430
+    second: Hermione_157
+  - first:
+      213: -6958270201290730897
+    second: Hermione_158
+  - first:
+      213: 7227610253505616406
+    second: Hermione_159
+  - first:
+      213: -7755805833246314905
+    second: Hermione_160
+  - first:
+      213: 787954951624494769
+    second: Hermione_161
+  - first:
+      213: 7502095199837132083
+    second: Hermione_162
+  - first:
+      213: 6086008280624302523
+    second: Hermione_163
+  - first:
+      213: 8699807815165377464
+    second: Hermione_164
+  - first:
+      213: -447245232169920358
+    second: Hermione_165
+  - first:
+      213: -2038789395451756701
+    second: Hermione_166
+  - first:
+      213: 3367823058203360740
+    second: Hermione_167
+  - first:
+      213: -7255598359012013071
+    second: Hermione_168
+  - first:
+      213: -8016208666212311356
+    second: Hermione_169
+  - first:
+      213: 6145845336112713589
+    second: Hermione_170
+  - first:
+      213: 2542688829951641190
+    second: Hermione_171
+  - first:
+      213: -1704105151475164710
+    second: Hermione_172
+  - first:
+      213: 1143309611317624841
+    second: Hermione_173
+  - first:
+      213: 3049853017144405949
+    second: Hermione_174
+  - first:
+      213: 1930754566195190173
+    second: Hermione_175
+  - first:
+      213: -1988100564721356002
+    second: Hermione_176
+  - first:
+      213: -6316773386534115576
+    second: Hermione_177
+  - first:
+      213: 5561856085975905467
+    second: Hermione_178
+  - first:
+      213: -6419280948498236066
+    second: Hermione_179
+  - first:
+      213: -1973424009143018992
+    second: Hermione_180
+  - first:
+      213: -9068307935050785057
+    second: Hermione_181
+  - first:
+      213: 3550225971354409776
+    second: Hermione_182
+  - first:
+      213: -4850255205251320898
+    second: Hermione_183
+  - first:
+      213: -3544341464848241448
+    second: Hermione_184
+  - first:
+      213: -531778165941724998
+    second: Hermione_185
+  - first:
+      213: -101713306978766430
+    second: Hermione_186
+  - first:
+      213: 6158213086214359882
+    second: Hermione_187
+  - first:
+      213: -3167826005864979599
+    second: Hermione_188
+  - first:
+      213: 5300129218595634452
+    second: Hermione_189
+  - first:
+      213: -8262458663756352597
+    second: Hermione_190
+  - first:
+      213: -3136251316670007413
+    second: Hermione_191
+  - first:
+      213: -1854615978490847888
+    second: Hermione_192
+  - first:
+      213: -5067569859840016565
+    second: Hermione_193
+  - first:
+      213: 4193916018045033076
+    second: Hermione_194
+  - first:
+      213: 2873042120208658527
+    second: Hermione_195
+  - first:
+      213: -2459870684978050196
+    second: Hermione_196
+  - first:
+      213: 3260581156455055618
+    second: Hermione_197
+  - first:
+      213: -4185140286169647527
+    second: Hermione_198
+  - first:
+      213: 4708382767371797294
+    second: Hermione_199
+  - first:
+      213: 7882966083633636659
+    second: Hermione_200
+  - first:
+      213: -8989687171840528038
+    second: Hermione_201
+  - first:
+      213: -2648402966680751114
+    second: Hermione_202
+  - first:
+      213: 5686377428767131046
+    second: Hermione_203
+  - first:
+      213: 6576801589533267737
+    second: Hermione_204
+  - first:
+      213: -1610277044996893174
+    second: Hermione_205
+  - first:
+      213: -7675545269574744056
+    second: Hermione_206
+  - first:
+      213: 3166703492725784015
+    second: Hermione_207
+  - first:
+      213: -4984039631312038366
+    second: Hermione_208
+  - first:
+      213: 2804604703413236152
+    second: Hermione_209
+  - first:
+      213: 129593291772584831
+    second: Hermione_210
+  - first:
+      213: 481170457177747680
+    second: Hermione_211
+  - first:
+      213: -8915954922787878085
+    second: Hermione_212
+  - first:
+      213: 6433701691129008571
+    second: Hermione_213
+  - first:
+      213: -4533280045942294983
+    second: Hermione_214
+  - first:
+      213: 5312419377736093213
+    second: Hermione_215
+  - first:
+      213: -4341927899073276257
+    second: Hermione_216
+  - first:
+      213: -8533062961433091837
+    second: Hermione_217
+  - first:
+      213: 7008462818108597286
+    second: Hermione_218
+  - first:
+      213: 8361293118769713867
+    second: Hermione_219
+  - first:
+      213: -5822725407936247194
+    second: Hermione_220
+  - first:
+      213: 541812110394861398
+    second: Hermione_221
+  - first:
+      213: -8193886937376921858
+    second: Hermione_222
+  - first:
+      213: 7468121467000269177
+    second: Hermione_223
+  - first:
+      213: -8975564737516109134
+    second: Hermione_224
+  - first:
+      213: -8713890626739551869
+    second: Hermione_225
+  - first:
+      213: 7749074762552984765
+    second: Hermione_226
+  - first:
+      213: -4836937152982310105
+    second: Hermione_227
+  - first:
+      213: -4698008386592325712
+    second: Hermione_228
+  - first:
+      213: -843293293317461347
+    second: Hermione_229
+  - first:
+      213: 8517084281098206862
+    second: Hermione_230
+  - first:
+      213: -3517312108499594839
+    second: Hermione_231
+  - first:
+      213: 1326917287376619570
+    second: Hermione_232
+  - first:
+      213: -3607503185230870454
+    second: Hermione_233
+  - first:
+      213: -8607283355616771556
+    second: Hermione_234
+  - first:
+      213: -194852565642187526
+    second: Hermione_235
+  - first:
+      213: 9010828912001588138
+    second: Hermione_236
+  - first:
+      213: 3750860751673555352
+    second: Hermione_237
+  - first:
+      213: 7183383910696184768
+    second: Hermione_238
+  - first:
+      213: -4592549215387622711
+    second: Hermione_239
+  - first:
+      213: -5080962324067961815
+    second: Hermione_240
+  - first:
+      213: 6394649941780725393
+    second: Hermione_241
+  - first:
+      213: 3095940827046004377
+    second: Hermione_242
+  - first:
+      213: 3125132558817236131
+    second: Hermione_243
+  - first:
+      213: -2675848368174457810
+    second: Hermione_244
+  - first:
+      213: -2023476918342125558
+    second: Hermione_245
+  - first:
+      213: -4467695122405903127
+    second: Hermione_246
+  - first:
+      213: 8132126695579536823
+    second: Hermione_247
+  - first:
+      213: 4844072076139527728
+    second: Hermione_248
+  - first:
+      213: -7711598796083854911
+    second: Hermione_249
+  - first:
+      213: -23254741675466473
+    second: Hermione_250
+  - first:
+      213: 8343058492250982180
+    second: Hermione_251
+  - first:
+      213: 3223125301286341199
+    second: Hermione_252
+  - first:
+      213: 1137080081143241104
+    second: Hermione_253
+  - first:
+      213: 2326022738017517185
+    second: Hermione_254
+  - first:
+      213: -6088751616060879168
+    second: Hermione_255
+  - first:
+      213: 2053175292971496347
+    second: Hermione_256
+  - first:
+      213: -1316094261464861244
+    second: Hermione_257
+  - first:
+      213: -115483855145123954
+    second: Hermione_258
+  - first:
+      213: 4934152316495912693
+    second: Hermione_259
+  - first:
+      213: 2298579334674662670
+    second: Hermione_260
+  - first:
+      213: -7779437390056439263
+    second: Hermione_261
+  - first:
+      213: 655298130744994340
+    second: Hermione_262
+  - first:
+      213: -4727537322313896080
+    second: Hermione_263
+  - first:
+      213: -6228580720874887028
+    second: Hermione_264
+  - first:
+      213: 6199824437040068804
+    second: Hermione_265
+  - first:
+      213: -6723549721220162487
+    second: Hermione_266
+  - first:
+      213: 4689353284157855758
+    second: Hermione_267
+  - first:
+      213: 3982276102726793033
+    second: Hermione_268
+  - first:
+      213: 8267522598486079106
+    second: Hermione_269
+  - first:
+      213: 3283485048352149914
+    second: Hermione_270
+  - first:
+      213: -2926974360642207350
+    second: Hermione_271
+  - first:
+      213: -6869015954959767292
+    second: Hermione_272
+  - first:
+      213: 4025777813100472242
+    second: Hermione_273
+  - first:
+      213: 5096278962084901235
+    second: Hermione_274
+  - first:
+      213: 377217700621648696
+    second: Hermione_275
+  - first:
+      213: -392642422611594348
+    second: Hermione_276
+  - first:
+      213: -5332166116303964374
+    second: Hermione_277
+  - first:
+      213: 1793394481368960331
+    second: Hermione_278
+  - first:
+      213: -7189032098936024462
+    second: Hermione_279
+  - first:
+      213: 3371718868990434270
+    second: Hermione_280
+  - first:
+      213: 7095907069622398730
+    second: Hermione_281
+  - first:
+      213: -674093316659098519
+    second: Hermione_282
+  - first:
+      213: -6724775307633370649
+    second: Hermione_283
+  - first:
+      213: 7247558993724551607
+    second: Hermione_284
+  - first:
+      213: 8306506376699857708
+    second: Hermione_285
+  - first:
+      213: -6982663958628032817
+    second: Hermione_286
+  - first:
+      213: 6470272848762510902
+    second: Hermione_287
+  - first:
+      213: 207457465175016573
+    second: Hermione_288
+  - first:
+      213: -9199873600614942139
+    second: Hermione_289
+  - first:
+      213: -8673860176859846658
+    second: Hermione_290
+  - first:
+      213: 753712146300497775
+    second: Hermione_291
+  - first:
+      213: -8026954190110479750
+    second: Hermione_292
+  - first:
+      213: -2783146710771517170
+    second: Hermione_293
+  - first:
+      213: 1094067164821287751
+    second: Hermione_294
+  - first:
+      213: -2071040529341288099
+    second: Hermione_295
+  - first:
+      213: 7700830458856269248
+    second: Hermione_296
+  - first:
+      213: 7198128772037118255
+    second: Hermione_297
+  - first:
+      213: 4734490823780778950
+    second: Hermione_298
+  - first:
+      213: -2923599450502684841
+    second: Hermione_299
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hermione_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6aa8b0e3c3bcaa0800000000000000
+      internalID: -6139747429810264387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2428cf9ff96f08cc0800000000000000
+      internalID: -3710694925998980542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a56e494b8719b680800000000000000
+      internalID: -8738927714937969245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a15af976443020800000000000000
+      internalID: 2320557197707288647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f293ee33ffddfe0800000000000000
+      internalID: -1162492530286579930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e600fe3e9938824b0800000000000000
+      internalID: -5464973450836770706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9107ea282fb148680800000000000000
+      internalID: -8753841047312895975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d4c0b4133116bd0800000000000000
+      internalID: -2638806804228977258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2814060ece8abdb80800000000000000
+      internalID: -8368909747207782014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2c34a31ba1bb8e0800000000000000
+      internalID: -1676717087776324868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac462348841e19c00800000000000000
+      internalID: 905752701649970378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee36f4a76a0421670800000000000000
+      internalID: 8507933729817060334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e4657e202e2ea0800000000000000
+      internalID: -5895739478271268800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35195333d2de7980800000000000000
+      internalID: -8539156038906473155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e2b8ccab44e4e0800000000000000
+      internalID: -1953353132898328065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c191d77f6800090800000000000000
+      internalID: -8070302134734087129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fea3b6647bb4510800000000000000
+      internalID: 1534521611124403977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f64148d2a845d30800000000000000
+      internalID: 4419309062451392381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a30a5c7e95f17930800000000000000
+      internalID: 4139359593570108328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c873495002c90f0800000000000000
+      internalID: -1108976199906390904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed870948817f74b0800000000000000
+      internalID: -5440504994685547035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8085005c411ea0510800000000000000
+      internalID: 1516271703884322824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fe4d4aec1e871b0800000000000000
+      internalID: -5658524654146097258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2b765c81e2ae510800000000000000
+      internalID: 1579125303272780502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43c8bb06d77ed8b0800000000000000
+      internalID: -5125527564697681076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f89f4c922437ac0800000000000000
+      internalID: -3858667708560601241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab58663fcd94143a0800000000000000
+      internalID: -6682979158715890246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580a173d99bc79bf0800000000000000
+      internalID: -317561387168456571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902d8f3a8607823b0800000000000000
+      internalID: -5537052147122122231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce4b29c93cce5ef0800000000000000
+      internalID: -117431991704793404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dd5421c6a79c380800000000000000
+      internalID: -8950488179840524998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acc2e59e98e5aea0800000000000000
+      internalID: -5862023572135687000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca887e4f70366ef90800000000000000
+      internalID: -6924738491210823508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4900011fc0fdec9e0800000000000000
+      internalID: -1599095570992988012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caba7c66d8df6ce0800000000000000
+      internalID: -1409669742889092414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9303180225e3a9f50800000000000000
+      internalID: 6888887102470172729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841814e96c37c0330800000000000000
+      internalID: 3678442292550664520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6874ca2368d6260800000000000000
+      internalID: 7092472540375254777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03b34567e414ddc0800000000000000
+      internalID: -3615241616802729204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed192ee537d2335a0800000000000000
+      internalID: -6542835860102802978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70db8beef82c0ed0800000000000000
+      internalID: -2446535422230409094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c037ce23be3c290800000000000000
+      internalID: -7871189119765640059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b845f51fbdaa80850800000000000000
+      internalID: 6343507936775459979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cada7b454fb211750800000000000000
+      internalID: 6273844084297149868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c376066d2d77d60800000000000000
+      internalID: 7888005090544925749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aec514ceba932f50800000000000000
+      internalID: 6855493201912254114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edc0a58ea0f17250800000000000000
+      internalID: 5940794015835278819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f81003ddc917f80800000000000000
+      internalID: -8110528980110438614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26e97d7eaec1b220800000000000000
+      internalID: 2500006516992108076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c50d365aedb5290800000000000000
+      internalID: -7900476319365833660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ac310772758f090800000000000000
+      internalID: -8000548911127999928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ecba0af500a44e0800000000000000
+      internalID: -1996783074067886496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6538a82dfe7f670800000000000000
+      internalID: 8572584103269062396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098be5520ee693110800000000000000
+      internalID: 1241145081295976592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fe692a332c3d0c0800000000000000
+      internalID: -4552081271314518200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d88f776fde13f30800000000000000
+      internalID: 4553682341078797598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c256405b7785c70800000000000000
+      internalID: 8960043078000127089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3975676440397c0800000000000000
+      internalID: -4065901337905753118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9bca8f79314cc70800000000000000
+      internalID: 8990332299571411379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30022827f2edb060800000000000000
+      internalID: 6970977349397512254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b048976a240a184a0800000000000000
+      internalID: -6592812171372428277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b555d0282e7ae8060800000000000000
+      internalID: 6957683065620354395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd19f47cf42ecbc70800000000000000
+      internalID: 8988307788598841821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64968da3edf847f30800000000000000
+      internalID: 4572437706320668998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33df915d2672cd10800000000000000
+      internalID: 2144406309596812091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f1ee4f49e9c08f0800000000000000
+      internalID: -572908689981300907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486a44fa0fb8891c0800000000000000
+      internalID: -4496690362080516476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88eab3917e8fc310800000000000000
+      internalID: 1427516225360685195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_68
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636d29bc7842d9300800000000000000
+      internalID: 260404519111939638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a077dd7448ceb50800000000000000
+      internalID: 6623814596148267647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45089b0fab69ea50800000000000000
+      internalID: 6550885532545058123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2da9feb4e2b47810800000000000000
+      internalID: 1762230049735028012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c74ab99ae7e85730800000000000000
+      internalID: 3988192464824059842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb63accb039a45b80800000000000000
+      internalID: -8406908577602980162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hermione_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78ada962328cf220800000000000000
+      internalID: 2521033044453599354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
