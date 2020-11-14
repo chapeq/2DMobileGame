@@ -6,29 +6,29 @@ public class DialogTrigger : MonoBehaviour
 {
     public Dialog dialogue;
 
-    public bool isInRange = false;
+    private bool displaytext = true;
+    public QuestController quest;
 
-    private void Update()
-    {
-        if (isInRange)
-            TriggerDialogue();
-    }
-
+    public ScriptButton bouton; 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
-            isInRange = true;
+        if (collision.gameObject.tag == "Player" || displaytext)
+        {
+            bouton.SetNPCName(gameObject.name);
+            if (quest != null)
+            {
+                if (!quest.isStarted)
+                    DialogManager.instance.StartDialogue(dialogue);
+                else if (quest.IsQuestComplete())
+                    DialogManager.instance.StartDialogue(quest.questCompletedConversation);
+                else
+                    DialogManager.instance.StartDialogue(quest.questInProgressConversation);       
+            } 
+            else
+               DialogManager.instance.StartDialogue(dialogue);
+
+            displaytext = false;
+        }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-            isInRange = false;
-
-    }
-
-    private void TriggerDialogue()
-    {
-       DialogManager.instance.StartDialogue(dialogue);
-    }
 }

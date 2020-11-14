@@ -5,5 +5,5 @@ using UnityEngine;
 public class Dialog
 {
     [TextArea(3,10)]
-    public string[] texte; 
+    public string texte;
 }
