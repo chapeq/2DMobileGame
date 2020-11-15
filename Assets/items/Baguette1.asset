@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b92cc8aec572e244901a1d5da948c52, type: 3}
   m_Name: Baguette1
   m_EditorClassIdentifier: 
-  name: Baguette1
-  icon: {fileID: 21300000, guid: cce6ea212d367b64e93a3e5015ad223f, type: 3}
+  name: BaguetteHarry
+  icon: {fileID: 21300000, guid: fc0b5f715bc029c429eea2f991fb1f95, type: 3}
+  type: Baguette
