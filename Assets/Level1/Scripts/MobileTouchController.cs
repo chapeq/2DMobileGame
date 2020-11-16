@@ -10,7 +10,7 @@ public class MobileTouchController : MonoBehaviour
     public Joystick joystick;
 
     private Rigidbody2D rb2d;        //Store a reference to the Rigidbody2D component required to use 2D Physics.
-    DialogManager dialog;
+    DialogueManager dialog;
     float moveHorizontal;
     float moveVertical;
 
@@ -19,7 +19,7 @@ public class MobileTouchController : MonoBehaviour
     {
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
-        dialog = DialogManager.instance;
+        dialog = DialogueManager.instance;
     }
 
     private void Update()

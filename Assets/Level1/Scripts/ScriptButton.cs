@@ -6,37 +6,45 @@ public class ScriptButton : MonoBehaviour
 {
     // Start is called before the first frame update
     public string NPCname;
-    private GameObject questToStart;
     public GameObject UIScreenBag;
     public GameObject UIScreenAni;
     public GameObject UIScreenBal;
 
+    private GameObject questToStart;
+
     public void ChoixAction()
     {
-        if (NPCname == "Hagrid")
+        switch (NPCname)
         {
-            questToStart = GameObject.Find("QuestAchats");
-            questToStart.GetComponent<QuestController>().StartQuest();
-        }
-        else if (NPCname == "VendeurBaguette")
-        {
-            questToStart = GameObject.Find("QuestBaguette");
-            questToStart.GetComponent<QuestController>().StartQuest();
-            UIScreenBag.SetActive(true);
+            case "Hagrid":
+                questToStart = GameObject.Find("QuestAchats");
+                questToStart.GetComponent<QuestController>().StartQuest();
+                if (questToStart.GetComponent<QuestController>().isFinished)
+                {
+                    LevelChanger.instance.FadeToNextLevel();
+                }
+                 
+                break;
+
+            case "VendeurBaguette":
+                if (UIScreenBag != null)
+                    UIScreenBag.SetActive(true);
+                break;
+
+            case "VendeurAnimaux":
+                if (UIScreenAni != null)
+                    UIScreenAni.SetActive(true);
+                break;
+
+            case "VendeurBalai":
+                if (UIScreenBal != null)
+                    UIScreenBal.SetActive(true);
+                break;
+
+            default:
+                break;
         }
 
-        else if (NPCname == "VendeurAnimaux")
-        {
-            questToStart = GameObject.Find("QuestAnimaux");
-            questToStart.GetComponent<QuestController>().StartQuest();
-            UIScreenAni.SetActive(true);
-        }
-        else if (NPCname == "VendeurBalai")
-        {
-            questToStart = GameObject.Find("QuestBalai");
-            questToStart.GetComponent<QuestController>().StartQuest();
-            UIScreenBal.SetActive(true);
-        }
     }
 
     public void SetNPCName(string npc)

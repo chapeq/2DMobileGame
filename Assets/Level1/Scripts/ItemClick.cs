@@ -8,9 +8,10 @@ public class ItemClick : MonoBehaviour
     public void AddToInventory()
     {
        
-        Inventory.instance.Add(equip);
-        GameObject Panel = transform.parent.gameObject;
-        Panel.SetActive(false);
+        EquipementInventory.instance.Add(equip);
+        GameObject Panel = transform.parent.parent.gameObject;
+        Destroy(Panel);
         
     }
+
 }

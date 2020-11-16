@@ -8,9 +8,9 @@ public class QuestController : MonoBehaviour
 
     public string titre;
     public string desc;
-    public Dialog questInProgressConversation, questCompletedConversation;
+    public Dialogue questInProgressConversation, questCompletedConversation;
 
-    Inventory inv;
+    EquipementInventory inv;
     HarryThoughtsManager indicefin;
 
 
@@ -28,7 +28,7 @@ public class QuestController : MonoBehaviour
 
     private void Start()
     {
-        inv = Inventory.instance;
+        inv = EquipementInventory.instance;
         indicefin = HarryThoughtsManager.instance;
     }
 
@@ -40,16 +40,17 @@ public class QuestController : MonoBehaviour
 
     public bool IsQuestComplete()
     {
+        if (isFinished)
+            return true;
         foreach (var i in requiredItems)
         {
 
-            if (inv.items.Exists(x => x.type == i.item.type))
-            {
-                isFinished = true;
-                return true;
-            }
+            if (!inv.equipements.Exists(x => x.type == i.item.type))
+                return false;
         }
-        return false;
+        isFinished = true;
+        return true;
+        
     }
 
 

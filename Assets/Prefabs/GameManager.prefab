@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7331196629059109698}
   - component: {fileID: 7331196629059109699}
+  - component: {fileID: 1909672157}
+  - component: {fileID: 1909672158}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -44,4 +46,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
-  space: 20
+  space: 18
+--- !u!114 &1909672157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7331196629059109697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe13593fc66081d49b835ad725319039, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipements: []
+  space: 3
+--- !u!114 &1909672158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7331196629059109697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bed7e4d8be83d444b238c5b6dc43672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 0}
+  - {fileID: 7331196629059109697}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

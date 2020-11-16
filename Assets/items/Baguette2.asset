@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b92cc8aec572e244901a1d5da948c52, type: 3}
+  m_Script: {fileID: 11500000, guid: 75378855d97a36642b38bd655067d8f5, type: 3}
   m_Name: Baguette2
   m_EditorClassIdentifier: 
   name: BaguetteSirius
   icon: {fileID: 21300000, guid: d5e98aec3fef52642b07fea4926e37b8, type: 3}
   type: Baguette
+  PtsAttaque: 12
+  PtsDefense: 3
+  PtsVie: 0

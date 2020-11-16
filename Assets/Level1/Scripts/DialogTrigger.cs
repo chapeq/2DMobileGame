@@ -4,31 +4,50 @@ using UnityEngine;
 
 public class DialogTrigger : MonoBehaviour
 {
-    public Dialog dialogue;
-
-   // private bool displaytext = true;
+    public Dialogue dialogue;
     public QuestController quest;
+    public ScriptButton bouton;
 
-    public ScriptButton bouton; 
+    private bool hasMet = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             bouton.SetNPCName(gameObject.name);
+
             if (quest != null)
             {
                 if (!quest.isStarted)
-                    DialogManager.instance.StartDialogue(dialogue);
+                    DialogueManager.instance.ShowDialogue(dialogue.texte[0]);
                 else if (quest.IsQuestComplete())
-                    DialogManager.instance.StartDialogue(quest.questCompletedConversation);
+                    DialogueManager.instance.ShowDialogue(quest.questCompletedConversation.texte[0]);
                 else
-                    DialogManager.instance.StartDialogue(quest.questInProgressConversation);       
-            } 
+                    DialogueManager.instance.ShowDialogue(quest.questInProgressConversation.texte[0]);
+            }
             else
-               DialogManager.instance.StartDialogue(dialogue);
-
-           // displaytext = false;
+            {
+                if (!hasMet)
+                {
+                    DialogueManager.instance.ShowDialogue(dialogue.texte[0]);
+                    hasMet = true;
+                }
+                else
+                    DialogueManager.instance.ShowDialogue(dialogue.texte[dialogue.texte.Length -1]);
+            }
+         
         }
+    }
+
+    public void DisplayOnclick()
+    {
+        if (!hasMet)
+        {
+            DialogueManager.instance.ShowDialogue(dialogue.texte[0]);
+            hasMet = true;
+        }
+        else
+            DialogueManager.instance.ShowDialogue(dialogue.texte[dialogue.texte.Length - 1]);
     }
 
 }

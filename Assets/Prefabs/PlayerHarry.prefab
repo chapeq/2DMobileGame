@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4716062182220255128}
   - component: {fileID: 4716062182220255135}
   - component: {fileID: 4716062182220255134}
+  - component: {fileID: 1265427022}
   m_Layer: 0
   m_Name: PlayerHarry
   m_TagString: Player
@@ -137,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7a7beadcd190a49ade4adc819ee1c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 8
   animator: {fileID: 4716062182220255128}
 --- !u!95 &4716062182220255128
 Animator:
@@ -188,3 +189,18 @@ MonoBehaviour:
   panel: {fileID: 0}
   quest: {fileID: 0}
   text: 
+--- !u!114 &1265427022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716062182220255126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77bb3fbf832168742a5b450176786ab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextAttaque: {fileID: 0}
+  TextDefense: {fileID: 0}
+  TextVie: {fileID: 0}

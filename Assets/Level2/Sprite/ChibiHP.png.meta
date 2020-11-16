@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 6e3a48bec497e9348bc013a9d65b3c59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6452441506491329597
+    second: ChibiHP_0
+  - first:
+      213: 7795799038086037243
+    second: ChibiHP_1
+  - first:
+      213: -9058832268987146199
+    second: ChibiHP_2
+  - first:
+      213: -6738345411740999468
+    second: ChibiHP_3
+  - first:
+      213: -1369418871208448126
+    second: ChibiHP_4
+  - first:
+      213: 8363118806807666273
+    second: ChibiHP_5
+  - first:
+      213: -3777363620450522484
+    second: ChibiHP_6
+  - first:
+      213: -5544190634942753336
+    second: ChibiHP_7
+  - first:
+      213: -74751422565900693
+    second: ChibiHP_8
+  - first:
+      213: 7659623550547898035
+    second: ChibiHP_9
+  - first:
+      213: -5595646983488873438
+    second: ChibiHP_10
+  - first:
+      213: 8023866947644521650
+    second: ChibiHP_11
+  - first:
+      213: 3243470925313776614
+    second: ChibiHP_12
+  - first:
+      213: 5681074922973027429
+    second: ChibiHP_13
+  - first:
+      213: 8906112259353591206
+    second: ChibiHP_14
+  - first:
+      213: 5677988824823516296
+    second: ChibiHP_15
+  - first:
+      213: -6040403437459169555
+    second: ChibiHP_16
+  - first:
+      213: 2783468670629468709
+    second: ChibiHP_17
+  - first:
+      213: -5498514910183449288
+    second: ChibiHP_18
+  - first:
+      213: -3993559197844433088
+    second: ChibiHP_19
+  - first:
+      213: -1164955654582788349
+    second: ChibiHP_20
+  - first:
+      213: 2793913071257945196
+    second: ChibiHP_21
+  - first:
+      213: 2730910470052892067
+    second: ChibiHP_22
+  - first:
+      213: -5676175394894694846
+    second: ChibiHP_23
+  - first:
+      213: -6857418692090414858
+    second: ChibiHP_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChibiHP_0
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 371
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c31997e2a25476a0800000000000000
+      internalID: -6452441506491329597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 387
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe3375dbed303c60800000000000000
+      internalID: 7795799038086037243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_2
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 384
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920ec2f0c00984280800000000000000
+      internalID: -9058832268987146199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 380
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d06b4f9c869c72a0800000000000000
+      internalID: -6738345411740999468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 371
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f67e8cac8defce0800000000000000
+      internalID: -1369418871208448126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 405
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ed82ebe34cf0470800000000000000
+      internalID: 8363118806807666273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_6
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 383
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a209feccb149bc0800000000000000
+      internalID: -3777363620450522484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 385
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5903dedf31f03b0800000000000000
+      internalID: -5544190634942753336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_8
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 380
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e118b2afd66fef0800000000000000
+      internalID: -74751422565900693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_9
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 378
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beaf9b69037c4a60800000000000000
+      internalID: 7659623550547898035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_10
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 369
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cd8ac27b44852b0800000000000000
+      internalID: -5595646983488873438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_11
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 361
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc79530a708a5f60800000000000000
+      internalID: 8023866947644521650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 94
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb92a63f9f130d20800000000000000
+      internalID: 3243470925313776614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 98
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cdf26fa8b37de40800000000000000
+      internalID: 5681074922973027429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 191
+        width: 112
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adb58cc9edd89b70800000000000000
+      internalID: 8906112259353591206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 191
+        width: 91
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c4e3eb0c44cce40800000000000000
+      internalID: 5677988824823516296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_16
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 191
+        width: 81
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee923ab31d2c2ca0800000000000000
+      internalID: -6040403437459169555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_17
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 193
+        width: 80
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a5c4c220ed0a620800000000000000
+      internalID: 2783468670629468709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 7
+        width: 103
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d935252d951b3b0800000000000000
+      internalID: -5498514910183449288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 7
+        width: 103
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0471dfe71170498c0800000000000000
+      internalID: -3993559197844433088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 7
+        width: 82
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f928d110f35dfe0800000000000000
+      internalID: -1164955654582788349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_21
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 7
+        width: 76
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6486a1b229f5c620800000000000000
+      internalID: 2793913071257945196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_22
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 7
+        width: 73
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adc5e08a9426e520800000000000000
+      internalID: 2730910470052892067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_23
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 7
+        width: 120
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2463d705d8c2a31b0800000000000000
+      internalID: -5676175394894694846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiHP_24
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 7
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8b3dd180e85d0a0800000000000000
+      internalID: -6857418692090414858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
