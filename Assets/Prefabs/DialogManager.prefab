@@ -45,4 +45,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TexteVisu: {fileID: 0}
   animator: {fileID: 0}
-  IsDialogOn: 0

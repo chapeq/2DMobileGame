@@ -8,9 +8,9 @@ public class MobileTouchController : MonoBehaviour
     public float speed;                //Floating point variable to store the player's movement speed.
     public Animator animator;
     public Joystick joystick;
+    public bool canMove = true;
 
     private Rigidbody2D rb2d;        //Store a reference to the Rigidbody2D component required to use 2D Physics.
-    DialogueManager dialog;
     float moveHorizontal;
     float moveVertical;
 
@@ -19,13 +19,15 @@ public class MobileTouchController : MonoBehaviour
     {
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
-        dialog = DialogueManager.instance;
     }
 
     private void Update()
     {
-        if (dialog.IsDialogOn)
+        if (!canMove)
+        {
+            animator.SetFloat("Speed", 0);
             return;
+        }
         //Store the current horizontal input in the float moveHorizontal.   
         moveHorizontal = joystick.Horizontal;
 
@@ -40,7 +42,7 @@ public class MobileTouchController : MonoBehaviour
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
-        if (dialog.IsDialogOn)
+        if (!canMove)
             return;
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.

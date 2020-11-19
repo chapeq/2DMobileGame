@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 4716062182220255131}
   - component: {fileID: 4716062182220255128}
   - component: {fileID: 4716062182220255135}
-  - component: {fileID: 4716062182220255134}
   - component: {fileID: 1265427022}
   m_Layer: 0
   m_Name: PlayerHarry
@@ -140,6 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   animator: {fileID: 4716062182220255128}
+  canMove: 1
 --- !u!95 &4716062182220255128
 Animator:
   serializedVersion: 3
@@ -174,21 +174,7 @@ MonoBehaviour:
   speed: 5
   animator: {fileID: 4716062182220255128}
   joystick: {fileID: 0}
---- !u!114 &4716062182220255134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4716062182220255126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7e3723b4b8c077428e00da570faad16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 0}
-  quest: {fileID: 0}
-  text: 
+  canMove: 1
 --- !u!114 &1265427022
 MonoBehaviour:
   m_ObjectHideFlags: 0

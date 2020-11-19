@@ -74,8 +74,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objects:
-  - {fileID: 0}
   - {fileID: 7331196629059109697}
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

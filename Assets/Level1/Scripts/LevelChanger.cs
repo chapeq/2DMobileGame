@@ -8,7 +8,8 @@ public class LevelChanger : MonoBehaviour
 
     public static LevelChanger instance;
     public Animator animator;
-    public GameObject transition;
+    public GameObject[] transitions;
+    public float displayTime = 2f;
     private int levelToLoad;
 
     private void Awake()
@@ -33,11 +34,17 @@ public class LevelChanger : MonoBehaviour
 
     IEnumerator ShowTransition()
     {
-        if (transition != null)
+        if (transitions.Length > 0)
         {
-            transition.SetActive(true);
-            yield return new WaitForSeconds(3f);
-            transition.SetActive(false);
+            transitions[0].SetActive(true);
+            yield return new WaitForSeconds(displayTime);
+            transitions[0].SetActive(false);
+        }
+        if (transitions.Length >1 )
+        {
+            transitions[1].SetActive(true);
+            yield return new WaitForSeconds(displayTime);
+            transitions[1].SetActive(false);
         }
         SceneManager.LoadScene(levelToLoad);
         

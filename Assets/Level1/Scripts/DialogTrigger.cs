@@ -14,6 +14,7 @@ public class DialogTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            if(bouton!=null)
             bouton.SetNPCName(gameObject.name);
 
             if (quest != null)

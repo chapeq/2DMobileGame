@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager instance;
     public Text TexteVisu;
     public Animator animator;
-    public bool IsDialogOn;
+    private PlayerController playerMove;
 
 
     private void Awake()
@@ -18,13 +18,13 @@ public class DialogueManager : MonoBehaviour
             return;
         instance = this;
         animator.SetBool("isOpen", false);
-        IsDialogOn = false;
+        playerMove = GameObject.Find("PlayerHarry").GetComponent<PlayerController>();
     }
 
     public void ShowDialogue(string dialogue)
     {
         animator.SetBool("isOpen", true);
-        IsDialogOn = true;
+        playerMove.canMove = false;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(dialogue));
     } 
@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("isOpen", false);
-        IsDialogOn = false;
+        playerMove.canMove = true;
     }
 
     IEnumerator TypeSentence(string sentence)
