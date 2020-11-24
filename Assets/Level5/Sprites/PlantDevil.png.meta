@@ -1,0 +1,860 @@
+fileFormatVersion: 2
+guid: 62eab4f6647dc82429588d0136280da5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -353071156100579042
+    second: PlantDevil_0
+  - first:
+      213: 830292001130325735
+    second: PlantDevil_1
+  - first:
+      213: -934056538043184548
+    second: PlantDevil_2
+  - first:
+      213: 5592897852797115370
+    second: PlantDevil_3
+  - first:
+      213: -8354920088596561345
+    second: PlantDevil_4
+  - first:
+      213: -2135995594353339696
+    second: PlantDevil_5
+  - first:
+      213: 1598612101676320063
+    second: PlantDevil_6
+  - first:
+      213: -7550975947920472748
+    second: PlantDevil_7
+  - first:
+      213: -8940208928215538650
+    second: PlantDevil_8
+  - first:
+      213: 94991432854602299
+    second: PlantDevil_9
+  - first:
+      213: 3818976473627404569
+    second: PlantDevil_10
+  - first:
+      213: -8730556830494317280
+    second: PlantDevil_11
+  - first:
+      213: 7696144417494573321
+    second: PlantDevil_12
+  - first:
+      213: 3041246444151068571
+    second: PlantDevil_13
+  - first:
+      213: 3338905763499950307
+    second: PlantDevil_14
+  - first:
+      213: 1256092007835292738
+    second: PlantDevil_15
+  - first:
+      213: 742785235004615687
+    second: PlantDevil_16
+  - first:
+      213: 896451076812339018
+    second: PlantDevil_17
+  - first:
+      213: -2221788355944529606
+    second: PlantDevil_18
+  - first:
+      213: -7345490222812558776
+    second: PlantDevil_19
+  - first:
+      213: -4291258296137401737
+    second: PlantDevil_20
+  - first:
+      213: -3657083566145115931
+    second: PlantDevil_21
+  - first:
+      213: 3146588658873330815
+    second: PlantDevil_22
+  - first:
+      213: 411270104032079105
+    second: PlantDevil_23
+  - first:
+      213: -4918890757337233418
+    second: PlantDevil_24
+  - first:
+      213: -737600138784705294
+    second: PlantDevil_25
+  - first:
+      213: -2777608776381564606
+    second: PlantDevil_26
+  - first:
+      213: -5425841381012185390
+    second: PlantDevil_27
+  - first:
+      213: 2872599211780625473
+    second: PlantDevil_28
+  - first:
+      213: 3766688538863620875
+    second: PlantDevil_29
+  - first:
+      213: 6972824350479963508
+    second: PlantDevil_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlantDevil_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 154
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11403877a3a91bf0800000000000000
+      internalID: -353071156100579042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 154
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6a83b0d2ac58b00800000000000000
+      internalID: 830292001130325735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 156
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a0ec907809903f0800000000000000
+      internalID: -934056538043184548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 152
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb5405f6f6fd9d40800000000000000
+      internalID: 5592897852797115370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 103
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324d68127c5d0c80800000000000000
+      internalID: -8354920088596561345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 103
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d215cce25b6b52e0800000000000000
+      internalID: -2135995594353339696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 105
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35ce069c396f2610800000000000000
+      internalID: 1598612101676320063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 101
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4558ea4d16b853790800000000000000
+      internalID: -7550975947920472748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 103
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624efe7d85ffde380800000000000000
+      internalID: -8940208928215538650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 103
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b320104743a715100800000000000000
+      internalID: 94991432854602299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_10
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 103
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919a2247edabff430800000000000000
+      internalID: 3818976473627404569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 105
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025a603b1d4d6d680800000000000000
+      internalID: -8730556830494317280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_12
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 101
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901aed062923eca60800000000000000
+      internalID: 7696144417494573321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_13
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 103
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b975b0a178da43a20800000000000000
+      internalID: 3041246444151068571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_14
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 103
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e04be30a1d265e20800000000000000
+      internalID: 3338905763499950307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_15
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 103
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244da3ca6098e6110800000000000000
+      internalID: 1256092007835292738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 105
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ceadc5c37ee4a00800000000000000
+      internalID: 742785235004615687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_17
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 101
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a477ae73185d07c00800000000000000
+      internalID: 896451076812339018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_18
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 103
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31c3d5034f9a21e0800000000000000
+      internalID: -2221788355944529606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_19
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 50
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a07287f839f0a90800000000000000
+      internalID: -7345490222812558776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 52
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a3843d0536274c0800000000000000
+      internalID: -4291258296137401737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_21
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 50
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e860066fdd6f3dc0800000000000000
+      internalID: -3657083566145115931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_22
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 50
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cea62c6bdeaab20800000000000000
+      internalID: 3146588658873330815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 50
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10de1990bff15b500800000000000000
+      internalID: 411270104032079105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 51
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f746f7eae69cbbb0800000000000000
+      internalID: -4918890757337233418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_25
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 53
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4757de49483c5f0800000000000000
+      internalID: -737600138784705294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_26
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 51
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249f4c6c883f379d0800000000000000
+      internalID: -2777608776381564606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_27
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 54
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de5725e20a83b4b0800000000000000
+      internalID: -5425841381012185390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_28
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 54
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144504073c58dd720800000000000000
+      internalID: 2872599211780625473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_29
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 60
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b035082f447f54430800000000000000
+      internalID: 3766688538863620875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlantDevil_30
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 65
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4755d8b9dc274c060800000000000000
+      internalID: 6972824350479963508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 88c10e8a07254dd4b875c7283dd9e5a5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

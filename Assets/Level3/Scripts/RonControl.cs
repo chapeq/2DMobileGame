@@ -21,7 +21,7 @@ public class RonControl : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(transform.position, player.position) > 2)
+        if (Vector3.Distance(transform.position, player.position) > 3)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position,
                                                      Speed * Time.deltaTime);
@@ -35,6 +35,7 @@ public class RonControl : MonoBehaviour
         animator.SetFloat("Horizontal", transform.position.x);
         animator.SetFloat("Vertical", transform.position.y);
         animator.SetFloat("Speed", Movement.sqrMagnitude);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -5,21 +5,38 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
-    private int ptsAttaque;
-    private int ptsDefense;
-    private int ptsVie;
+    public static PlayerStats instance;
+
+    public int ptsAttaque;
+    public int ptsDefense;
+    public int ptsVie;
+    public int ptsVieMax;
+    public int lvl; 
+
     public Text TextAttaque;
     public Text TextDefense;
     public Text TextVie;
+ 
 
+
+    private void Awake()
+    {
+        if (instance != null)
+            return;
+        instance = this;
+    }
 
     private void Start()
     {
         ptsAttaque = 0;
         ptsDefense = 0;
-        ptsVie = 100;
+        ptsVieMax = 100;
+        ptsVie = ptsVieMax;
+        lvl = 1; 
+
     }
 
+   
     public void AddPtsAttaque(int points)
     {
         ptsAttaque += points;
@@ -32,16 +49,12 @@ public class PlayerStats : MonoBehaviour
         TextDefense.text = ptsDefense.ToString();
     }
 
-    public void AddPtsVie(int points)
+    public void SetPtsVie(int points)
     {
-        ptsVie += points;
-        TextVie.text = ptsVie.ToString();
-    }
-
-    public void RemovePtsVie(int points)
-    {
-        ptsVie -= points;
-        TextVie.text = ptsVie.ToString();
+        if (points > ptsVieMax)
+            ptsVie = ptsVieMax;
+        ptsVie = points;
+        TextVie.text = ptsVie.ToString(); 
     }
 
 

@@ -5,31 +5,34 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
 
-    public GameObject nextCheckpoint;
-
+    public GameObject nextCheckpoint; 
+    public ValidateSpells validate;
+    
+   
     private void Start()
     {
-        
-           
+       
     }
-    /*private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.name == "circle")
-        {
-            Debug.Log("Validate");
-            if (gameObject.name != "finalCheckpoint" && nextCheckpoint != null)
-                nextcollider.enabled = true;
-            else
-                Debug.Log("FINI");
-        }
-    }*/
 
     private void OnMouseOver()
     {
-        Debug.Log("VALIDATE");
         if (gameObject.name != "finalCheckpoint" && nextCheckpoint != null)
+        {
             nextCheckpoint.SetActive(true);
-        else
-            Debug.Log("FINI");
+            Debug.Log("VALIDATE" + gameObject.name);
+        }
+        else if (gameObject.name == "finalCheckpoint")
+            validate.Finish();
+
+
     }
+
+    public void Reset()
+    {
+        Debug.Log("Reset checkpoint");
+        if (gameObject.name != "Checkpoint1")
+            gameObject.SetActive(false);
+    }
+
+   
 }

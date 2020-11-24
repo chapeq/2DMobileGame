@@ -9,6 +9,8 @@ public class Inventory : MonoBehaviour
     public delegate void OnItemChanged();
     public OnItemChanged onItemChangedCallback;
 
+    public bool IsCombatMode = false;
+
     private void Awake()
     {
         if (instance != null)

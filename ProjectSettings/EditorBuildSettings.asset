@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3 - Poudlard.unity
     guid: bcdb885f945ffc1429a50d20773c7cee
+  - enabled: 1
+    path: Assets/Scenes/Level4 - Potion.unity
+    guid: 20d8af72fc5227b43a6f513bcd0554aa
+  - enabled: 1
+    path: Assets/Scenes/Level5-Foret.unity
+    guid: c77ebd63fce2b88449b718203e143df0
   m_configObjects: {}

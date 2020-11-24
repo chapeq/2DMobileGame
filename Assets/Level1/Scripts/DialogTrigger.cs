@@ -8,13 +8,14 @@ public class DialogTrigger : MonoBehaviour
     public QuestController quest;
     public ScriptButton bouton;
 
-    private bool hasMet = false;
+    public bool hasMet = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            if(bouton!=null)
+            Debug.Log("DialogTrigger _ OnTriggerEnter");
+            if (bouton!=null)
             bouton.SetNPCName(gameObject.name);
 
             if (quest != null)
@@ -42,6 +43,9 @@ public class DialogTrigger : MonoBehaviour
 
     public void DisplayOnclick()
     {
+        Debug.Log("DialogTrigger _ displayOnclick");
+        if (bouton != null)
+            bouton.SetNPCName(gameObject.name);
         if (!hasMet)
         {
             DialogueManager.instance.ShowDialogue(dialogue.texte[0]);

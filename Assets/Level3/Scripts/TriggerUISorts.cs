@@ -5,14 +5,16 @@ using UnityEngine;
 public class TriggerUISorts : MonoBehaviour
 {
     public GameObject UIpanel;
-    public GameObject circle;
-
+    public GameObject ButonManager; 
+  
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.name == "PlayerHarry")
         {
+            if(UIpanel != null)
             UIpanel.SetActive(true);
-            circle.SetActive(true);
+            if (ButonManager != null)
+                ButonManager.SetActive(true);
         }
     }
 

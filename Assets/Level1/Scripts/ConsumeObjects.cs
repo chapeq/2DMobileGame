@@ -9,9 +9,9 @@ public class ConsumeObjects : MonoBehaviour
 
     public void ConsumeObject()
     {
-        stats.AddPtsAttaque(item.PtsAttaque);
-        stats.AddPtsDefense(item.PtsDefense);
-        stats.AddPtsVie(item.PtsVie);
+        stats.ptsAttaque += (item.PtsAttaque);
+        stats.ptsDefense +=(item.PtsDefense);
+        stats.ptsVie += (item.PtsVie);
 
     }
 }
