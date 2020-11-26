@@ -33,30 +33,53 @@ public class PlayerStats : MonoBehaviour
         ptsVieMax = 100;
         ptsVie = ptsVieMax;
         lvl = 1; 
-
     }
 
    
     public void AddPtsAttaque(int points)
     {
         ptsAttaque += points;
-        TextAttaque.text = ptsAttaque.ToString();
+        UpdateUI();
     }
 
     public void AddPtsDefense(int points)
     {
         ptsDefense += points;
-        TextDefense.text = ptsDefense.ToString();
+        UpdateUI();
     }
 
-    public void SetPtsVie(int points)
+    public void AddPtsVie(int points)
     {
-        if (points > ptsVieMax)
+
+        ptsVie += points;
+
+        if (ptsVie > ptsVieMax)
             ptsVie = ptsVieMax;
-        ptsVie = points;
-        TextVie.text = ptsVie.ToString(); 
+
+        UpdateUI();
     }
 
+    public void RemovePtsVie(int points)
+    {
 
+        ptsVie -= points;
+
+        if (ptsVie < 0)
+            ptsVie = 0;
+
+        UpdateUI();
+    }
+
+    public void AddPVMax(int pts)
+    {
+        ptsVieMax += pts;
+    }
+
+    public void UpdateUI()
+    {
+        TextAttaque.text = ptsAttaque.ToString();
+        TextDefense.text = ptsDefense.ToString();
+        TextVie.text = ptsVie.ToString();
+    }
 }
 

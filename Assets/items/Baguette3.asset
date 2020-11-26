@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75378855d97a36642b38bd655067d8f5, type: 3}
   m_Name: Baguette3
   m_EditorClassIdentifier: 
+  ID: 3
   name: BaguetteInconnu
   icon: {fileID: 21300000, guid: cce6ea212d367b64e93a3e5015ad223f, type: 3}
   type: Baguette
   PtsAttaque: 7
   PtsDefense: 7
+  PVMAx: 0
   PtsVie: 0

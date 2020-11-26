@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b92cc8aec572e244901a1d5da948c52, type: 3}
   m_Name: Chouette
   m_EditorClassIdentifier: 
+  ID: 10
   name: Hedwige
   icon: {fileID: 21300000, guid: 798c1f847a2f10947828d1619936cd38, type: 3}
   type: Animal

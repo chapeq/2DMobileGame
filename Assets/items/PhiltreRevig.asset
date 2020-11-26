@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75378855d97a36642b38bd655067d8f5, type: 3}
   m_Name: PhiltreRevig
   m_EditorClassIdentifier: 
+  ID: 12
   name: PhiltreRevigorant
   icon: {fileID: 21300000, guid: 8eefc4750d28c204cb1d395bbd8c4a42, type: 3}
   type: Potion2
   PtsAttaque: 0
   PtsDefense: 0
-  PtsVie: 10
+  PVMAx: 0
+  PtsVie: 20

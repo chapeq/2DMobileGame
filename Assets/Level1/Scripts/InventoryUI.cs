@@ -18,7 +18,6 @@ public class InventoryUI : MonoBehaviour
         inventory.onItemChangedCallback += UpdateUI;
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
         invIcon = GameObject.Find("inventoryImage");
-
     }
 
     void UpdateUI()

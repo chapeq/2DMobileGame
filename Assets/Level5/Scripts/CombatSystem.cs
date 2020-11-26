@@ -1,6 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq.Expressions;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +9,7 @@ public class CombatSystem : MonoBehaviour
 
     public GameObject CanvasBattle;
     public GameObject CanvasToHide;
-
+    public GameObject Centaure;
     public Text dialogueText;
 
     public UpdateEnnemyUI ennemyUI;
@@ -19,10 +17,7 @@ public class CombatSystem : MonoBehaviour
 
     public GameObject UIInventory ;
 
-    private GameObject player;
     private EnnemyStat ennemystat;
-
-    private Animator animPlayer;
     private Animator animEnemy;
 
     private int cptAttaque = 0;
@@ -31,15 +26,14 @@ public class CombatSystem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "PlayerHarry")
+        if (collision.tag == "Player")
             StartBattle();
     }
 
     public void StartBattle()
     {
         state = BattleState.START;
-        player = GameObject.Find("PlayerHarry");
-        player.GetComponent<PlayerController>().canMove = false;
+        PlayerController.instance.canMove = false;
         StartCoroutine(SetUpBattle());
     }
 
@@ -52,7 +46,6 @@ public class CombatSystem : MonoBehaviour
         ennemyUI.SetUI(ennemystat);
         harryUI.SetUI();
 
-        animPlayer = player.GetComponent<Animator>();
         animEnemy = GetComponent<Animator>();
 
         switch (PlayerStats.instance.ptsDefense)
@@ -78,7 +71,8 @@ public class CombatSystem : MonoBehaviour
 
     void PlayerTurn()
     {
-        if (cptAttaque == 3)
+        Debug.Log("CPT ATTAQUE : " + cptAttaque);
+        if (cptAttaque >= 3)
         {
             GameObject bouton = GameObject.Find("Attaque");
             bouton.GetComponent<Button>().interactable = false;
@@ -119,10 +113,10 @@ public class CombatSystem : MonoBehaviour
 
     IEnumerator PlayerAttack()
     {
-        animPlayer.SetTrigger("Attack");
+        PlayerController.instance.Attack();
         ennemystat.currentHP -= PlayerStats.instance.ptsAttaque;
         ennemyUI.SetHp(ennemystat.currentHP);
-        dialogueText.text = "Bravo, " + ennemystat.ennemyname + " perds " + PlayerStats.instance.ptsAttaque + "points de vie !";
+        dialogueText.text = "Bravo, " + ennemystat.ennemyname + " perds " + PlayerStats.instance.ptsAttaque + " points de vie !";
 
         yield return new WaitForSeconds(3f);
 
@@ -149,6 +143,9 @@ public class CombatSystem : MonoBehaviour
         }
         else
         {
+            if (cptAttaque == 3)
+                cptAttaque = 0;
+
             Inventory.instance.IsCombatMode = true;
             UIInventory.SetActive(true);
 
@@ -156,8 +153,9 @@ public class CombatSystem : MonoBehaviour
                 yield return null;
 
              harryUI.SetHp(PlayerStats.instance.ptsVie);
-             yield return new WaitForSeconds(1f);
+             yield return new WaitForSeconds(2f);
 
+            Inventory.instance.cptItemConsumme = 0;
             Inventory.instance.IsCombatMode = false;
 
             state = BattleState.ENNEMYTURN;
@@ -167,10 +165,14 @@ public class CombatSystem : MonoBehaviour
 
     IEnumerator PlayerDefense()
     {
+        if (cptAttaque == 3)
+            cptAttaque = 0;
+
         IsDefenseActive = true;
         dialogueText.text = "Vous activez votre bouclier PROTEGO ! ";
-        animPlayer.SetTrigger("Attack");
-        yield return new WaitForSeconds(1.5f);
+        PlayerController.instance.Attack();
+
+        yield return new WaitForSeconds(2f);
         state = BattleState.ENNEMYTURN;
         StartCoroutine(EnnemyAttack());
     }
@@ -179,24 +181,32 @@ public class CombatSystem : MonoBehaviour
     {
         if (state == BattleState.WON)
         {
-            dialogueText.text = "Bravo, vous avez battu " + ennemystat.ennemyname + ". Vous gagnez 1 point d'attaque !";
-            PlayerStats.instance.AddPtsAttaque(1);
-            if (PlayerStats.instance.ptsAttaque > 23)
+            dialogueText.text = "Bravo, vous avez battu " + ennemystat.ennemyname + ".Vous gagnez " +ennemystat.RewardPtsAtt +" points d'attaque et " +
+                ennemystat.RewardPtsDef +" points de défense!";
+            PlayerStats.instance.AddPtsAttaque(ennemystat.RewardPtsAtt);
+            PlayerStats.instance.AddPtsDefense(ennemystat.RewardPtsDef);
+            yield return new WaitForSeconds(2f);
+
+            if (PlayerStats.instance.ptsAttaque < ennemystat.lvl) 
             {
-                PlayerStats.instance.lvl = 2;
-                yield return new WaitForSeconds(2.5f);
-                dialogueText.text = "Vous passez au niveau 2 !";
+                PlayerStats.instance.lvl = ennemystat.lvl;
+                dialogueText.text = "Vous passez au niveau " + ennemystat.lvl + " !!";
+                yield return new WaitForSeconds(2f);
             }
             CanvasToHide.SetActive(true);
             CanvasBattle.SetActive(false);
 
-            GetComponent<BoxCollider2D>().enabled = false;
-            player.GetComponent<PlayerController>().canMove = true;
+            if (gameObject.name == "Boss" && Centaure != null)
+                Centaure.SetActive(true);
+
+            PlayerController.instance.canMove = true;
         }
         else if (state == BattleState.LOST)
         {
             dialogueText.text = "Vous êtes mort ... Retentez votre chance.";
-            //GameOVER
+            PlayerController.instance.Die();
+            CanvasBattle.SetActive(false);
+
         }
     }
 
@@ -209,19 +219,16 @@ public class CombatSystem : MonoBehaviour
             if (tempdamage < 0)
                 tempdamage = 0;
             dialogueText.text = ennemystat.ennemyname + " attaque , mais votre bouclier vous protége ! " +
-                "Vous ne perdez que " + tempdamage + "points de vie.";
-            PlayerStats.instance.SetPtsVie(PlayerStats.instance.ptsVie - tempdamage);
+                "Vous ne perdez que " + tempdamage + " points de vie.";
+            PlayerStats.instance.RemovePtsVie(tempdamage);
             IsDefenseActive = false;
         }
         else
         {
             dialogueText.text = ennemystat.ennemyname + " attaque , vous perdez " + ennemystat.damage + "points de vie...";
-            PlayerStats.instance.SetPtsVie(PlayerStats.instance.ptsVie - ennemystat.damage);
+            PlayerStats.instance.RemovePtsVie(ennemystat.damage);
         }
         harryUI.SetHp(PlayerStats.instance.ptsVie);
-
-        if (cptAttaque == 3)
-            cptAttaque = 0;
 
         yield return new WaitForSeconds(3f);
 

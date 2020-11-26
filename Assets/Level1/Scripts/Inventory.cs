@@ -10,6 +10,7 @@ public class Inventory : MonoBehaviour
     public OnItemChanged onItemChangedCallback;
 
     public bool IsCombatMode = false;
+    public int cptItemConsumme = 0;
 
     private void Awake()
     {

@@ -6,7 +6,7 @@ public class DialogTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
     public QuestController quest;
-    public ScriptButton bouton;
+    public ScriptButtonLevel1 bouton;
 
     public bool hasMet = false;
 
@@ -14,7 +14,6 @@ public class DialogTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("DialogTrigger _ OnTriggerEnter");
             if (bouton!=null)
             bouton.SetNPCName(gameObject.name);
 
@@ -43,7 +42,6 @@ public class DialogTrigger : MonoBehaviour
 
     public void DisplayOnclick()
     {
-        Debug.Log("DialogTrigger _ displayOnclick");
         if (bouton != null)
             bouton.SetNPCName(gameObject.name);
         if (!hasMet)

@@ -1,6 +1,5 @@
 ﻿
 using UnityEngine;
-using UnityEngine.EventSystems;
 using System.Collections;
 
 
@@ -15,7 +14,6 @@ public class DragOnTouch : MonoBehaviour
 
     void OnMouseDown()
     {
-        Debug.Log("OnMouseDown");
         currentTime = timeStart;
        initialPos = transform.position;
         tr = GetComponentInChildren<TrailRenderer>();

@@ -8,6 +8,8 @@ public class EnnemyStat : MonoBehaviour
     public int lvl;
     public int damage;
     public int maxHP;
-    public int currentHP; 
+    public int currentHP;
+    public int RewardPtsAtt; 
+    public int RewardPtsDef;
 
 }

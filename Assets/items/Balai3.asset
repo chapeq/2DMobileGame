@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b92cc8aec572e244901a1d5da948c52, type: 3}
   m_Name: Balai3
   m_EditorClassIdentifier: 
+  ID: 7
   name: Balai3
   icon: {fileID: 21300000, guid: 1072a03e8a3ed85418e88b34bf1c2bb5, type: 3}
   type: Balai

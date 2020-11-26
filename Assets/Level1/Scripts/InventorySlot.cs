@@ -50,18 +50,17 @@ public class InventorySlot : MonoBehaviour
             yield return new WaitForSeconds(2f);
             tooltip.SetActive(false);
         }
-        item.Consumme();
-        Inventory.instance.Remove(item);
-        if (Inventory.instance.IsCombatMode)
+        if (Inventory.instance.IsCombatMode && Inventory.instance.cptItemConsumme >= 1)
         {
-            Button[] boutons = transform.parent.GetComponentsInChildren<Button>();
-            foreach (Button but in boutons)
-            {
-                but.interactable = false;
-            }
-
+            yield break;
         }
+        if (Inventory.instance.IsCombatMode)
+            Inventory.instance.cptItemConsumme++;
 
+        item.Consumme();
+
+        Inventory.instance.Remove(item);
+        
     }
 
 }

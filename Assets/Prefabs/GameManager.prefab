@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 7331196629059109698}
   - component: {fileID: 7331196629059109699}
   - component: {fileID: 1909672157}
-  - component: {fileID: 1909672158}
+  - component: {fileID: 1266875017}
+  - component: {fileID: 1737865603}
+  - component: {fileID: 6582313812746573570}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -45,6 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa4698b737a23784f8d276f680c1da07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsCombatMode: 0
+  cptItemConsumme: 0
   items: []
   space: 18
 --- !u!114 &1909672157
@@ -61,7 +65,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equipements: []
   space: 3
---- !u!114 &1909672158
+--- !u!114 &1266875017
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,10 +74,54 @@ MonoBehaviour:
   m_GameObject: {fileID: 7331196629059109697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bed7e4d8be83d444b238c5b6dc43672, type: 3}
+  m_Script: {fileID: 11500000, guid: 77bb3fbf832168742a5b450176786ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 7331196629059109697}
-  - {fileID: 0}
-  - {fileID: 0}
+  ptsAttaque: 22
+  ptsDefense: 13
+  ptsVie: 100
+  ptsVieMax: 100
+  lvl: 1
+  TextAttaque: {fileID: 0}
+  TextDefense: {fileID: 0}
+  TextVie: {fileID: 0}
+--- !u!114 &1737865603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7331196629059109697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d7a7ea94df7744e973d557d8ea406c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allItems:
+  - {fileID: 11400000, guid: 8f00e111a2f18fd41b2b2208c8540076, type: 2}
+  - {fileID: 11400000, guid: f3d2cd45db8f80e4c9b1e28844f22e6a, type: 2}
+  - {fileID: 11400000, guid: 8ad4bd65233e37e459c29503c2a035f5, type: 2}
+  - {fileID: 11400000, guid: cd57ee4110cfc5b47a8d5321d6b7d02a, type: 2}
+  - {fileID: 11400000, guid: 10e7494752c22ad409d270e2154f6e27, type: 2}
+  - {fileID: 11400000, guid: 945632bca5c4fa7409daa564e022461b, type: 2}
+  - {fileID: 11400000, guid: c27bcdac25a0c4741a9fc11b3ed386dc, type: 2}
+  - {fileID: 11400000, guid: 7462a0691c222ee41933d1de5d46cd6a, type: 2}
+  - {fileID: 11400000, guid: 11e3de4c3c1efcd4abfe2cd49f47c6d2, type: 2}
+  - {fileID: 11400000, guid: a7fd23d187017e443ae0b1aafed1fc5b, type: 2}
+  - {fileID: 11400000, guid: 757e09b9477ae8c449841bf8ec492d66, type: 2}
+  - {fileID: 11400000, guid: e719f51730d2e8644907a93bd24c7b36, type: 2}
+  - {fileID: 11400000, guid: 074efb502e9501b4f8e5a1792ccf1ccc, type: 2}
+  - {fileID: 11400000, guid: 9d74c5b39aab15c478bf9f900386fdf2, type: 2}
+  - {fileID: 11400000, guid: 5ffa0f3dab3f7f54bb1c8061f1a79b48, type: 2}
+--- !u!114 &6582313812746573570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7331196629059109697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc681e35c53b2394ca89e3de424c10cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

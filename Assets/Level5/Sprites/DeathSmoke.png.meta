@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 34519ef30fa0b494e8bdd2a74adb72d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6403775216382722340
+    second: DeathSmoke_0
+  - first:
+      213: 361007837684217929
+    second: DeathSmoke_1
+  - first:
+      213: -878011987015775306
+    second: DeathSmoke_2
+  - first:
+      213: 1261684954724637244
+    second: DeathSmoke_3
+  - first:
+      213: -4370701060496277438
+    second: DeathSmoke_4
+  - first:
+      213: 5701399389661850787
+    second: DeathSmoke_5
+  - first:
+      213: -5226780915530458282
+    second: DeathSmoke_6
+  - first:
+      213: -5402164558025927892
+    second: DeathSmoke_7
+  - first:
+      213: 2684225368036723102
+    second: DeathSmoke_8
+  - first:
+      213: -5498068660959799463
+    second: DeathSmoke_9
+  - first:
+      213: 5464254369910425348
+    second: DeathSmoke_10
+  - first:
+      213: -435242649448900622
+    second: DeathSmoke_11
+  - first:
+      213: -4207956294835053662
+    second: DeathSmoke_12
+  - first:
+      213: -5292955677414557106
+    second: DeathSmoke_13
+  - first:
+      213: 1779834210440942382
+    second: DeathSmoke_14
+  - first:
+      213: 2317323506874471393
+    second: DeathSmoke_15
+  - first:
+      213: 8571302043031399309
+    second: DeathSmoke_16
+  - first:
+      213: 4950559860471237339
+    second: DeathSmoke_17
+  - first:
+      213: -4071524060428761954
+    second: DeathSmoke_18
+  - first:
+      213: -5735143526115218166
+    second: DeathSmoke_19
+  - first:
+      213: 8687587717266097115
+    second: DeathSmoke_20
+  - first:
+      213: 1030863099113778207
+    second: DeathSmoke_21
+  - first:
+      213: -6961816956845525594
+    second: DeathSmoke_22
+  - first:
+      213: 2198418696387643203
+    second: DeathSmoke_23
+  - first:
+      213: -4473880176204578466
+    second: DeathSmoke_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeathSmoke_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 498
+        width: 185
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42141f171a7ced850800000000000000
+      internalID: 6403775216382722340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathSmoke_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 498
+        width: 219
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948bc4637be820500800000000000000
+      internalID: 361007837684217929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathSmoke_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 498
+        width: 277
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbc36defbca0d3f0800000000000000
+      internalID: -878011987015775306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathSmoke_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 294
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a11d818c7628110800000000000000
+      internalID: 1261684954724637244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathSmoke_4
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 180
+        width: 272
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24042bdda862853c0800000000000000
+      internalID: -4370701060496277438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathSmoke_19
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 261
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d650e595da860b0800000000000000
+      internalID: -5735143526115218166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathSmoke_5
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 220
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac6c6f99807f1f40800000000000000
+      internalID: 5701399389661850787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9bb02d07e2442cd4f83cae5fa373d78f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

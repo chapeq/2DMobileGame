@@ -9,18 +9,18 @@ public class ConsumableItem : Item
 {
     public int PtsAttaque;
     public int PtsDefense;
+    public int PVMAx;
     public int PtsVie;
- 
 
     public override void Consumme()
     {
-        Debug.Log("Consumme item 2");
         PlayerStats.instance.AddPtsAttaque(PtsAttaque);
         PlayerStats.instance.AddPtsDefense(PtsDefense);
-        PlayerStats.instance.SetPtsVie(PlayerStats.instance.ptsVie + PtsVie);
+        PlayerStats.instance.AddPVMax(PVMAx);
+        PlayerStats.instance.AddPtsVie(PtsVie);
     }
 
-    public override int GetPtsVie()
+   public override int GetPtsVie()
     {
         return PtsVie;
     }

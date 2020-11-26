@@ -21,4 +21,10 @@ public class EquipementSlot : MonoBehaviour
         icon.sprite = null;
         icon.enabled = false;
     }
+
+    public void ConsummeItem()
+    {
+        if (item != null)
+            item.Consumme();
+    }
 }

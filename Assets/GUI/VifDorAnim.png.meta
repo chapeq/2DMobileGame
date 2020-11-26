@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: 0dcf4d7fe1b67214eb745e0e052f009c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8536568372995478641
+    second: VifDorAnim_0
+  - first:
+      213: 4444041930656676367
+    second: VifDorAnim_1
+  - first:
+      213: 4509377485238098577
+    second: VifDorAnim_2
+  - first:
+      213: 4310960917501828037
+    second: VifDorAnim_3
+  - first:
+      213: -5058269270605314556
+    second: VifDorAnim_4
+  - first:
+      213: -48585740300823992
+    second: VifDorAnim_5
+  - first:
+      213: -4521638051898137631
+    second: VifDorAnim_6
+  - first:
+      213: -5163460514930255222
+    second: VifDorAnim_7
+  - first:
+      213: 3930067721271583942
+    second: VifDorAnim_8
+  - first:
+      213: -2864588278243619473
+    second: VifDorAnim_9
+  - first:
+      213: 5834587717328237277
+    second: VifDorAnim_10
+  - first:
+      213: -3304007945047034240
+    second: VifDorAnim_11
+  - first:
+      213: -7961869557691136104
+    second: VifDorAnim_12
+  - first:
+      213: -5887766217337606720
+    second: VifDorAnim_13
+  - first:
+      213: -499771966785555941
+    second: VifDorAnim_14
+  - first:
+      213: -439947033279263120
+    second: VifDorAnim_15
+  - first:
+      213: 8621520612686441463
+    second: VifDorAnim_16
+  - first:
+      213: 2823648197854529703
+    second: VifDorAnim_17
+  - first:
+      213: -3113757308513647617
+    second: VifDorAnim_18
+  - first:
+      213: 8985651651278439270
+    second: VifDorAnim_19
+  - first:
+      213: -4070941551034504991
+    second: VifDorAnim_20
+  - first:
+      213: 3877527194038197030
+    second: VifDorAnim_21
+  - first:
+      213: -3923005925929912794
+    second: VifDorAnim_22
+  - first:
+      213: 4097902935694672736
+    second: VifDorAnim_23
+  - first:
+      213: 5059445018888270615
+    second: VifDorAnim_24
+  - first:
+      213: -101129415012601452
+    second: VifDorAnim_25
+  - first:
+      213: -437265381599964983
+    second: VifDorAnim_26
+  - first:
+      213: 6033113215596292682
+    second: VifDorAnim_27
+  - first:
+      213: -248270796010807215
+    second: VifDorAnim_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VifDorAnim_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 914
+        width: 295
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b25ce1b44088980800000000000000
+      internalID: -8536568372995478641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 908
+        width: 265
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a7bb327986cad30800000000000000
+      internalID: 4444041930656676367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 899
+        width: 241
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ad2cd5ee6849e30800000000000000
+      internalID: 4509377485238098577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_3
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 902
+        width: 264
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbd9403d1c93db30800000000000000
+      internalID: 4310960917501828037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_4
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 904
+        width: 259
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406cb43f5ea6dc9b0800000000000000
+      internalID: -5058269270605314556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_5
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 875
+        width: 240
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8425830d683635ff0800000000000000
+      internalID: -48585740300823992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 739
+        width: 239
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3e8b1062aef31c0800000000000000
+      internalID: -4521638051898137631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 737
+        width: 239
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a93d3d404b758b0800000000000000
+      internalID: -5163460514930255222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_8
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 749
+        width: 259
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c42f9525c76a8630800000000000000
+      internalID: 3930067721271583942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_9
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 739
+        width: 259
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d8a8f5320fe38d0800000000000000
+      internalID: -2864588278243619473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_10
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 731
+        width: 265
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2f43ead9e98f050800000000000000
+      internalID: 5834587717328237277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_11
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 722
+        width: 265
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0863764874ec522d0800000000000000
+      internalID: -3304007945047034240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 572
+        width: 259
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897c2d132d1c18190800000000000000
+      internalID: -7961869557691136104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 553
+        width: 240
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdeb0fe1d37a4ea0800000000000000
+      internalID: -5887766217337606720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_14
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 565
+        width: 265
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b127c0b4b047019f0800000000000000
+      internalID: -499771966785555941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_15
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 539
+        width: 239
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0761118ef4e9f0800000000000000
+      internalID: -439947033279263120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_16
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 550
+        width: 237
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb22e6815bc5a770800000000000000
+      internalID: 8621520612686441463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_17
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 545
+        width: 264
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a88acb531d9f2720800000000000000
+      internalID: 2823648197854529703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 381
+        width: 238
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3844da936b9c4d0800000000000000
+      internalID: -3113757308513647617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_19
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 375
+        width: 289
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6638add919273bc70800000000000000
+      internalID: 8985651651278439270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_20
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 386
+        width: 264
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8e5356a3c1187c0800000000000000
+      internalID: -4070941551034504991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_21
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 354
+        width: 235
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b509f507ebfc530800000000000000
+      internalID: 3877527194038197030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_22
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 377
+        width: 261
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626f13535eeae89c0800000000000000
+      internalID: -3923005925929912794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_23
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 361
+        width: 265
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0638c16220daed830800000000000000
+      internalID: 4097902935694672736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 175
+        width: 299
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71374774072c63640800000000000000
+      internalID: 5059445018888270615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_25
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 174
+        width: 263
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491b4d53557b89ef0800000000000000
+      internalID: -101129415012601452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_26
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 200
+        width: 255
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c09821c3758ee9f0800000000000000
+      internalID: -437265381599964983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_27
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 199
+        width: 261
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ae459318ce9b350800000000000000
+      internalID: 6033113215596292682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VifDorAnim_28
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 165
+        width: 235
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1502ca3c607fd8cf0800000000000000
+      internalID: -248270796010807215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 30709da2338df6d4aa7c5e9e77866f3c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

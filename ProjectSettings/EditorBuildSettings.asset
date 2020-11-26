@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level5-Foret.unity
     guid: c77ebd63fce2b88449b718203e143df0
+  - enabled: 1
+    path: Assets/Scenes/LevelFinal-Combat.unity
+    guid: ec15794c2b7ff9745ad09c7001dc9fe4
   m_configObjects: {}
