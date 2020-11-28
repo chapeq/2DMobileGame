@@ -16,6 +16,7 @@ public class DragOnTouch : MonoBehaviour
     {
         currentTime = timeStart;
        initialPos = transform.position;
+        AudioManager.instance.Play("ButtonSelect");
         tr = GetComponentInChildren<TrailRenderer>();
        StartCoroutine(Timer());
     }
@@ -30,7 +31,7 @@ public class DragOnTouch : MonoBehaviour
 
     private void OnMouseUp()
     {
-        Reset();
+        validate.Fail();
     }
 
     public void Reset()

@@ -31,12 +31,14 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
+        AudioManager.instance.Stop("TypeWriter");
         animator.SetBool("isOpen", false);
         playerMove.canMove = true;
     }
 
     IEnumerator TypeSentence(string sentence)
-    { 
+    {
+        AudioManager.instance.Play("TypeWriter");
         TexteVisu.text = "";
         foreach(char letter in sentence.ToCharArray())
         {
@@ -44,5 +46,6 @@ public class DialogueManager : MonoBehaviour
             TexteVisu.text += letter;
             yield return new WaitForSeconds(0.01f);
         }
+        AudioManager.instance.Stop("TypeWriter");
     }
 }

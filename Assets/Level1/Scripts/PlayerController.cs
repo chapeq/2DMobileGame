@@ -48,11 +48,13 @@ public class PlayerController : MonoBehaviour
     public void Attack()
     {
         animator.SetTrigger("Attack");
+        AudioManager.instance.Play("Attack");
     }
 
     public void Die()
     {
         animator.SetTrigger("Dead");
+        AudioManager.instance.Play("GameOver");
         GameOver.instance.ShowGameOver();
     }
 

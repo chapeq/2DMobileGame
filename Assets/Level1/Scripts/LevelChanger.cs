@@ -9,8 +9,10 @@ public class LevelChanger : MonoBehaviour
 
     public static LevelChanger instance;
     public Animator animator;
+    public Animator musicanim; 
     public GameObject[] transitions;
     public float displayTime = 2f;
+    public float audiospeed = 1f;
     private int levelToLoad;
 
     private void Awake()
@@ -23,7 +25,8 @@ public class LevelChanger : MonoBehaviour
 
     public void FadeToNextLevel ()
     {
-        
+        musicanim.SetFloat("animSpeed", audiospeed);
+        musicanim.SetTrigger("FadeOut");
         levelToLoad = SceneManager.GetActiveScene().buildIndex + 1;
         animator.SetTrigger("FadeOut");
     }

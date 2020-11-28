@@ -10,12 +10,16 @@ public class TriggerCinematic : MonoBehaviour
     private PlayerController playerMove;
     private bool asStarted = false;
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.name == "PlayerHarry")
         {
             playerMove = collision.GetComponent<PlayerController>();
             playerMove.canMove = false;
+            Animator anim = GameObject.Find("BackgroundMusic").GetComponent<Animator>();
+            anim.SetFloat("animSpeed", 1.5f);
+            anim.SetTrigger("FadeOut");
             StartCoroutine(FadeOut());
         }
 
@@ -23,6 +27,7 @@ public class TriggerCinematic : MonoBehaviour
 
     IEnumerator FadeOut()
     {
+        AudioSource music = GameObject.Find("BackgroundMusic2").GetComponent<AudioSource>();
         fadeOut.SetActive(true);
         for (float i = 0; i <= 1; i += Time.deltaTime)
         {
@@ -31,6 +36,7 @@ public class TriggerCinematic : MonoBehaviour
         }
         fadeOut.SetActive(false);
         timeline.Play();
+        music.Play();
         asStarted = true;
     }
 

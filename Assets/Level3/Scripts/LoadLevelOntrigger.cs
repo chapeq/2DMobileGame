@@ -6,7 +6,7 @@ public class LoadLevelOntrigger : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.name == "PlayerHarry")
+        if (col.tag == "Player")
             LevelChanger.instance.FadeToNextLevel();
     }
 }

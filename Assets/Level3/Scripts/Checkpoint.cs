@@ -5,10 +5,10 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
 
-    public GameObject nextCheckpoint; 
+    public GameObject nextCheckpoint;
     public ValidateSpells validate;
-    
-  
+    public GameObject particle;
+    bool isFinished = false;
 
     private void OnMouseOver()
     {
@@ -16,8 +16,12 @@ public class Checkpoint : MonoBehaviour
         {
             nextCheckpoint.SetActive(true);
         }
-        else if (gameObject.name == "finalCheckpoint")
+        else if (gameObject.name == "finalCheckpoint" && !isFinished)
+        {
+           isFinished = true;
+            Instantiate(particle, transform.position, Quaternion.identity);
             validate.Finish();
+        }
 
 
     }

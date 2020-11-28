@@ -6,7 +6,7 @@ public class InventorySlot : MonoBehaviour
 {
     Item item;
     public Image icon;
-    public Button removeButton;
+    public Button infoButton;
     public GameObject tooltip;
 
     public void AddItem(Item newItem)
@@ -14,7 +14,7 @@ public class InventorySlot : MonoBehaviour
         item = newItem;
         icon.sprite = item.icon;
         icon.enabled = true;
-        removeButton.interactable = true;
+        infoButton.interactable = true;
     }
 
     public void ClearSlot()
@@ -22,45 +22,48 @@ public class InventorySlot : MonoBehaviour
         item = null;
         icon.sprite = null;
         icon.enabled = false;
-        removeButton.interactable = false;
+        infoButton.interactable = false;
     }
 
-    public void OnRemoveButton()
+    public void OnInfoButton()
     {
-        Inventory.instance.Remove(item);
-    }
-
-    public void ConsummeItem()
-    {
-        if (item != null)
-            StartCoroutine(TooltipConsumme());
-           
-
-    }
-
-    IEnumerator TooltipConsumme()
-    {
-        if (tooltip != null)
+        bool isTooltipShow = false;
+        if (tooltip != null && !isTooltipShow)
         {
+            isTooltipShow = true;
             Text name = tooltip.transform.GetChild(0).GetComponent<Text>();
             Text HP = tooltip.transform.GetChild(1).GetComponent<Text>();
             name.text = item.name;
             HP.text = "+ " + item.GetPtsVie() + " ptsVie";
             tooltip.SetActive(true);
-            yield return new WaitForSeconds(2f);
-            tooltip.SetActive(false);
         }
+        else if (isTooltipShow)
+        {
+            tooltip.SetActive(false);
+            isTooltipShow = false;
+        }
+    }
+
+    public void ConsummeItem()
+    {
+        if (item != null)
+            Consumme();
+           
+
+    }
+
+    public void Consumme()
+    {
         if (Inventory.instance.IsCombatMode && Inventory.instance.cptItemConsumme >= 1)
         {
-            yield break;
+            return;
         }
         if (Inventory.instance.IsCombatMode)
             Inventory.instance.cptItemConsumme++;
 
         item.Consumme();
-
-        Inventory.instance.Remove(item);
-        
+        AudioManager.instance.Play("Heal");
+        Inventory.instance.Remove(item);      
     }
 
 }

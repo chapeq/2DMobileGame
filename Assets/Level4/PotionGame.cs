@@ -38,7 +38,27 @@ public class PotionGame : MonoBehaviour
         StopAllCoroutines();
         Debug.Log("Bouton Clicker :  " + boutonCliked);
         _buttonsSelected.Add(boutonCliked);
-        StartCoroutine(Timer());
+        if (_buttonsSelected.Count == tour + 1)
+        {
+            if (!CheckList())
+            {
+                AudioManager.instance.Play("Error");
+                tour = 0;
+                _buttonsSelected.Clear();
+                StartCoroutine(HighlightButton());
+            }
+            else if (CheckList() && _buttonsSelected.Count == _listButtons.Count)
+                StartCoroutine(Finish());
+            else if (CheckList() && _buttonsSelected.Count != _listButtons.Count)
+            {
+                tour++;
+                _buttonsSelected.Clear();
+                StartCoroutine(HighlightButton());
+            }
+        }
+        else
+            StartCoroutine(Timer());
+
     }
 
     bool CheckList()
@@ -66,6 +86,7 @@ public class PotionGame : MonoBehaviour
             Debug.Log("Bouton HighLight : " + _listButtons[i]);
             Image bouton = _listButtons[i].GetComponent<Image>();
             bouton.color = Color.blue;
+            AudioManager.instance.Play("HighlightButton");
             yield return new WaitForSeconds(1f);
             bouton.color = Color.white;
         }
@@ -73,30 +94,39 @@ public class PotionGame : MonoBehaviour
         {
             allIngredients[i].interactable = true;
         }
+        StartCoroutine(Timer());
     }
 
     IEnumerator Timer()
     {
-            Debug.Log("start timer");
-        yield return new WaitForSeconds(tour * 1f);
-        if (!CheckList())
+        StopCoroutine(HighlightButton());
+        float currentTime = 6f;
+        bool finTimer = true;
+        while (finTimer)
         {
+            Debug.Log("start timer");
+            yield return new WaitForSeconds(1f);
+            currentTime -= 1f;
+            if (currentTime <= 0)
+            {
+                finTimer = false;
+            }
+        }
+        if (!finTimer)
+        {
+            AudioManager.instance.Play("Error");
             tour = 0;
             _buttonsSelected.Clear();
             StartCoroutine(HighlightButton());
+            Debug.Log("fin timer");
         }
-        else if (CheckList() && _buttonsSelected.Count == _listButtons.Count)
-            Finish();
-        else if (CheckList() && _buttonsSelected.Count != _listButtons.Count)
-        {
-            tour++;
-            _buttonsSelected.Clear();
-            StartCoroutine(HighlightButton());
-        }
+    
     }
 
-    void Finish()
+    IEnumerator Finish()
     {
+        AudioManager.instance.Play("Validate");
+        yield return new WaitForSeconds(2f);
         Debug.Log("FINISH");
         Destroy(panel);
         GetComponent<DialogTrigger>().DisplayOnclick();

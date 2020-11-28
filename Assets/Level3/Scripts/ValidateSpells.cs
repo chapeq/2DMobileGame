@@ -11,25 +11,19 @@ public class ValidateSpells : MonoBehaviour
     public GameObject TriggerLevel;
     bool isFinished = false;
 
-   
     public void Finish()
     {
         Debug.Log("FINISH");
         isFinished = true;
-        Destroy(panel);
-        GetComponent<DialogTrigger>().DisplayOnclick();
-        if (triggerMcgo != null)
-        {
-            Destroy(triggerMcgo);
-            TriggerLevel.SetActive(true);
-        }
-        
+        AudioManager.instance.Play("Spell");
+        StartCoroutine(HidePanel());      
     }
 
     public void Fail()
     {
         if (!isFinished)
         {
+            AudioManager.instance.Play("TimerEnd");
             circle.Reset();
             foreach (Checkpoint point in listPoints)
             {
@@ -37,6 +31,19 @@ public class ValidateSpells : MonoBehaviour
             }
             Debug.Log("Plus vite !! ou plus precis ! ");
         }
+    }
+
+    IEnumerator HidePanel()
+    {
+        yield return new WaitForSeconds(2f);
+        Destroy(panel);
+        GetComponent<DialogTrigger>().DisplayOnclick();
+        if (triggerMcgo != null)
+        {
+            Destroy(triggerMcgo);
+            TriggerLevel.SetActive(true);
+        }
+
     }
 
 }

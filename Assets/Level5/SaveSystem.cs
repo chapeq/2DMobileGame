@@ -36,4 +36,13 @@ public static class SaveSystem
         }
     }
 
+    public static void DeleteData()
+    {
+        string path = Application.persistentDataPath + "/save.hp";
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+        }
+    }
+
 }

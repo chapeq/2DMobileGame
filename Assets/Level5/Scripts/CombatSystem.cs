@@ -22,6 +22,7 @@ public class CombatSystem : MonoBehaviour
 
     private int cptAttaque = 0;
     private bool IsDefenseActive = false;
+    private AudioSource Mainaudio;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -34,6 +35,12 @@ public class CombatSystem : MonoBehaviour
     {
         state = BattleState.START;
         PlayerController.instance.canMove = false;
+        Mainaudio = GameObject.Find("BackgroundMusic").GetComponent<AudioSource>();
+        Mainaudio.Pause();
+        if (gameObject.name == "Boss")
+            AudioManager.instance.Play("BossBattle");
+        else
+            AudioManager.instance.Play("BattleTheme");
         StartCoroutine(SetUpBattle());
     }
 
@@ -181,6 +188,7 @@ public class CombatSystem : MonoBehaviour
     {
         if (state == BattleState.WON)
         {
+            AudioManager.instance.Play("Victory");
             dialogueText.text = "Bravo, vous avez battu " + ennemystat.ennemyname + ".Vous gagnez " +ennemystat.RewardPtsAtt +" points d'attaque et " +
                 ennemystat.RewardPtsDef +" points de défense!";
             PlayerStats.instance.AddPtsAttaque(ennemystat.RewardPtsAtt);
@@ -197,9 +205,17 @@ public class CombatSystem : MonoBehaviour
             CanvasBattle.SetActive(false);
 
             if (gameObject.name == "Boss" && Centaure != null)
+            {
                 Centaure.SetActive(true);
-
+                AudioManager.instance.Stop("BossBattle");
+            }
+            else
+            {
+                AudioManager.instance.Stop("BattleTheme");
+            }
             PlayerController.instance.canMove = true;
+            Mainaudio.UnPause();
+
         }
         else if (state == BattleState.LOST)
         {
