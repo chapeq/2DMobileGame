@@ -13,7 +13,6 @@ public class ValidateSpells : MonoBehaviour
 
     public void Finish()
     {
-        Debug.Log("FINISH");
         isFinished = true;
         AudioManager.instance.Play("Spell");
         StartCoroutine(HidePanel());      
@@ -23,13 +22,12 @@ public class ValidateSpells : MonoBehaviour
     {
         if (!isFinished)
         {
-            AudioManager.instance.Play("TimerEnd");
             circle.Reset();
             foreach (Checkpoint point in listPoints)
             {
                 point.Reset();
             }
-            Debug.Log("Plus vite !! ou plus precis ! ");
+              Debug.Log("Plus vite !! ou plus precis ! ");
         }
     }
 

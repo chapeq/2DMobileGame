@@ -16,7 +16,6 @@ public class DragOnTouch : MonoBehaviour
     {
         currentTime = timeStart;
        initialPos = transform.position;
-        Debug.Log("start pos" + initialPos);
         AudioManager.instance.Play("ButtonSelect");
         tr = GetComponentInChildren<TrailRenderer>();
        StartCoroutine(Timer());
@@ -25,7 +24,7 @@ public class DragOnTouch : MonoBehaviour
     private void OnMouseDrag()
     {
         screenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y);
-       screenPoint.z = 20.0f; //distance of the plane from the camera
+        screenPoint.z = 20.0f; 
         transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
         
     }
@@ -37,11 +36,8 @@ public class DragOnTouch : MonoBehaviour
 
     public void Reset()
     {
-        Debug.Log("Reset Circle");
         transform.position = initialPos;
-        Debug.Log("Reset pos" + transform.position);
         tr.Clear();
-
     }
 
     public  IEnumerator Timer()
@@ -49,7 +45,6 @@ public class DragOnTouch : MonoBehaviour
         bool finTimer = true;
         while (finTimer)
         {
-            Debug.Log("start timer");
             yield return new WaitForSeconds(1f);
             currentTime -= 1f;
             if (currentTime <= 0)
@@ -60,7 +55,6 @@ public class DragOnTouch : MonoBehaviour
         if (!finTimer)
         {
             validate.Fail();
-            Debug.Log("fin timer");
         }
     }
 }

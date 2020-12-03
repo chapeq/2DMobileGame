@@ -241,7 +241,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 277.00003, y: -418.7}
-  m_SizeDelta: {x: 330, y: 67}
+  m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177816542
 MonoBehaviour:
@@ -379,8 +379,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 280.3, y: -422.16022}
-  m_SizeDelta: {x: 336.6407, y: 73.9133}
+  m_AnchoredPosition: {x: 282.6, y: -424.19}
+  m_SizeDelta: {x: 411.10345, y: 110.9852}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &199526950
 MonoBehaviour:
@@ -635,7 +635,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: dab90a45cedf47b4291bd9816c597551, type: 3}
-    m_FontSize: 40
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -802,7 +802,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Graphic and audio contents comes from the internet and were made by various
+  m_Text: "Graphic and audio content comes from the internet and was made by various
     talented artists.\n\nGame design and development : Charlotte Pequignot. \n\n"
 --- !u!222 &659597169
 CanvasRenderer:
@@ -1106,7 +1106,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: dab90a45cedf47b4291bd9816c597551, type: 3}
-    m_FontSize: 40
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1628,8 +1628,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -279.03, y: -422.16}
-  m_SizeDelta: {x: 335.65204, y: 73.91376}
+  m_AnchoredPosition: {x: -275.9, y: -424.2}
+  m_SizeDelta: {x: 411.84583, y: 110.97348}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917111266
 MonoBehaviour:
@@ -1705,7 +1705,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -281.84995, y: -418.7}
-  m_SizeDelta: {x: 330, y: 67}
+  m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2106785903
 MonoBehaviour:

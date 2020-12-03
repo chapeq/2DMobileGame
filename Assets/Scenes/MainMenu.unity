@@ -2816,7 +2816,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Graphic and audio contents comes from the internet and were made by various
+  m_Text: "Graphic and audio content comes from the internet and was made by various
     talented artists.\n\nGame design and development : Charlotte Pequignot. \n\n"
 --- !u!222 &1296860468
 CanvasRenderer:

@@ -42,9 +42,8 @@ public class DialogueManager : MonoBehaviour
         TexteVisu.text = "";
         foreach(char letter in sentence.ToCharArray())
         {
-            yield return new WaitForSeconds(0.04f);
             TexteVisu.text += letter;
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.05f);
         }
         AudioManager.instance.Stop("TypeWriter");
     }

@@ -24,6 +24,13 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+#if UNITY_EDITOR || UNITY_STANDALONE
+      joystick.gameObject.SetActive(false);
+#else
+        joystick.gameObject.SetActive(true);
+#endif
+
     }
 
     public void Attack()
@@ -40,13 +47,11 @@ public class PlayerController : MonoBehaviour
         GameOver.instance.ShowGameOver();
     }
 
-
 #if UNITY_EDITOR || UNITY_STANDALONE
 
-    void FixedUpdate()
+    void Update()
     {
-        joystick.gameObject.SetActive(false);
-       
+             
         if (!canMove)
         {
             animator.SetFloat("Speed", 0);
@@ -58,22 +63,26 @@ public class PlayerController : MonoBehaviour
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
-
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        animator.SetFloat("Speed", movement.sqrMagnitude);  
     }
 
-
-#else
     private void FixedUpdate()
     {
         if (!canMove)
         {
-            animator.SetFloat("Speed", 0);
-            joystick.gameObject.SetActive(false);
             return;
         }
-        joystick.gameObject.SetActive(true);
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+    }
+
+#else
+    void Update()
+    {
+        if (!canMove)
+        {
+            animator.SetFloat("Speed", 0);
+            return;
+        }
 
         movement.x = joystick.Horizontal;
         movement.y = joystick.Vertical;
@@ -82,6 +91,14 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Vertical",  movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+    }
+
+   private void FixedUpdate()
+    {
+        if (!canMove)
+        {
+            return;
+        }
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
 

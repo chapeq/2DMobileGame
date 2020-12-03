@@ -10,19 +10,21 @@ public class Checkpoint : MonoBehaviour
     public GameObject particle;
     bool isFinished = false;
 
-    private void OnMouseOver()
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (gameObject.name != "finalCheckpoint" && nextCheckpoint != null)
+        if (col.name == "circle")
         {
-            nextCheckpoint.SetActive(true);
+            if (gameObject.name != "finalCheckpoint" && nextCheckpoint != null)
+            {
+                nextCheckpoint.SetActive(true);
+            }
+            else if (gameObject.name == "finalCheckpoint" && !isFinished)
+            {
+                isFinished = true;
+                Instantiate(particle, transform.position, Quaternion.identity);
+                validate.Finish();
+            }
         }
-        else if (gameObject.name == "finalCheckpoint" && !isFinished)
-        {
-           isFinished = true;
-            Instantiate(particle, transform.position, Quaternion.identity);
-            validate.Finish();
-        }
-
 
     }
 
