@@ -210,7 +210,7 @@ public class CombatSystem : MonoBehaviour
             PlayerStats.instance.AddPtsAttaque(ennemystat.RewardPtsAtt);
             yield return new WaitForSeconds(2f);
 
-            if (PlayerStats.instance.ptsAttaque < ennemystat.lvl) 
+            if (PlayerStats.instance.lvl < ennemystat.lvl) 
             {
                 PlayerStats.instance.lvl = ennemystat.lvl;
                 dialogueText.text = "Vous passez au niveau " + ennemystat.lvl + " !!";

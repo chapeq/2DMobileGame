@@ -49,6 +49,7 @@ public class ScriptButtonLevel1 : MonoBehaviour
                 if (UISpells != null)
                 {
                     UISpells.SetActive(true);
+                    PlayerController.instance.canMove = false;
                 }
                 break;
 
@@ -57,6 +58,7 @@ public class ScriptButtonLevel1 : MonoBehaviour
                 if (UISpells2 != null)
                 {
                     UISpells2.SetActive(true);
+                    PlayerController.instance.canMove = false;
                 }
                 break;
 
@@ -66,7 +68,10 @@ public class ScriptButtonLevel1 : MonoBehaviour
 
             case "ButtonManager1":
                 if (UIPotion != null)
+                {
                     UIPotion.SetActive(true);
+                    PlayerController.instance.canMove = false;
+                }
                 if (PotionManager != null)
                     PotionManager.SetActive(true);
                 break;

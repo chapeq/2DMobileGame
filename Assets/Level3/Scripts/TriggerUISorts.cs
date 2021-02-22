@@ -11,8 +11,11 @@ public class TriggerUISorts : MonoBehaviour
     {
         if (col.name == "PlayerHarry")
         {
-            if(UIpanel != null)
-            UIpanel.SetActive(true);
+            if (UIpanel != null)
+            {
+                UIpanel.SetActive(true);
+                PlayerController.instance.canMove = false;
+            }
             if (ButonManager != null)
                 ButonManager.SetActive(true);
         }
