@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelFinal-Combat.unity
     guid: ec15794c2b7ff9745ad09c7001dc9fe4
+  - enabled: 1
+    path: Assets/Scenes/EndMenu.unity
+    guid: ad0c4b5babc6cb240a4e7bdcb3135004
   m_configObjects: {}

@@ -17,13 +17,17 @@ public class CombatSystem : MonoBehaviour
 
     public GameObject UIInventory ;
 
+    public GameObject AttackVFX;
+    public GameObject ShieldVFX;
+
     private EnnemyStat ennemystat;
     private Animator animEnemy;
 
     private int cptAttaque = 0;
     private bool IsDefenseActive = false;
     private AudioSource Mainaudio;
-
+    private GameObject spell;
+    private GameObject shield;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -70,7 +74,7 @@ public class CombatSystem : MonoBehaviour
                 break;
         }
 
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(3f);
 
         state = BattleState.PLAYERTURN;
         PlayerTurn();
@@ -120,12 +124,15 @@ public class CombatSystem : MonoBehaviour
 
     IEnumerator PlayerAttack()
     {
+        spell = Instantiate(AttackVFX, PlayerController.instance.transform.position, Quaternion.identity);
         PlayerController.instance.Attack();
         ennemystat.currentHP -= PlayerStats.instance.ptsAttaque;
         ennemyUI.SetHp(ennemystat.currentHP);
         dialogueText.text = "Bravo, " + ennemystat.ennemyname + " perds " + PlayerStats.instance.ptsAttaque + " points de vie !";
 
         yield return new WaitForSeconds(3f);
+
+        Destroy(spell);
 
         if (ennemystat.currentHP <= 0)
         {
@@ -150,8 +157,7 @@ public class CombatSystem : MonoBehaviour
         }
         else
         {
-            if (cptAttaque == 3)
-                cptAttaque = 0;
+            cptAttaque = 0;
 
             Inventory.instance.IsCombatMode = true;
             UIInventory.SetActive(true);
@@ -160,7 +166,7 @@ public class CombatSystem : MonoBehaviour
                 yield return null;
 
              harryUI.SetHp(PlayerStats.instance.ptsVie);
-             yield return new WaitForSeconds(2f);
+             yield return new WaitForSeconds(1f);
 
             Inventory.instance.cptItemConsumme = 0;
             Inventory.instance.IsCombatMode = false;
@@ -172,13 +178,12 @@ public class CombatSystem : MonoBehaviour
 
     IEnumerator PlayerDefense()
     {
-        if (cptAttaque == 3)
-            cptAttaque = 0;
+        cptAttaque = 0;
 
         IsDefenseActive = true;
         dialogueText.text = "Vous activez votre bouclier PROTEGO ! ";
         PlayerController.instance.Attack();
-
+        shield = Instantiate(ShieldVFX, PlayerController.instance.transform.position, Quaternion.identity);
         yield return new WaitForSeconds(2f);
         state = BattleState.ENNEMYTURN;
         StartCoroutine(EnnemyAttack());
@@ -186,13 +191,23 @@ public class CombatSystem : MonoBehaviour
 
     IEnumerator EndBattle()
     {
+
+        if (gameObject.name == "Boss") 
+            AudioManager.instance.Stop("BossBattle");
+        else
+            AudioManager.instance.Stop("BattleTheme");
+       
         if (state == BattleState.WON)
         {
             AudioManager.instance.Play("Victory");
-            dialogueText.text = "Bravo, vous avez battu " + ennemystat.ennemyname + ".Vous gagnez " +ennemystat.RewardPtsAtt +" points d'attaque et " +
-                ennemystat.RewardPtsDef +" points de défense!";
+            dialogueText.text = "Bravo, vous avez battu " + ennemystat.ennemyname + ".Vous gagnez " + ennemystat.RewardPtsAtt +" points d'attaque ..." ;
+            if (gameObject.name == "Boss")
+            {
+                yield return new WaitForSeconds(1f);
+                dialogueText.text =  "..et " + ennemystat.RewardPtsDef + " points de défense!! ";
+                PlayerStats.instance.AddPtsDefense(ennemystat.RewardPtsDef);
+            }
             PlayerStats.instance.AddPtsAttaque(ennemystat.RewardPtsAtt);
-            PlayerStats.instance.AddPtsDefense(ennemystat.RewardPtsDef);
             yield return new WaitForSeconds(2f);
 
             if (PlayerStats.instance.ptsAttaque < ennemystat.lvl) 
@@ -205,14 +220,8 @@ public class CombatSystem : MonoBehaviour
             CanvasBattle.SetActive(false);
 
             if (gameObject.name == "Boss" && Centaure != null)
-            {
-                Centaure.SetActive(true);
-                AudioManager.instance.Stop("BossBattle");
-            }
-            else
-            {
-                AudioManager.instance.Stop("BattleTheme");
-            }
+               Centaure.SetActive(true);
+               
             PlayerController.instance.canMove = true;
             Mainaudio.UnPause();
 
@@ -220,7 +229,7 @@ public class CombatSystem : MonoBehaviour
         else if (state == BattleState.LOST)
         {
             dialogueText.text = "Vous êtes mort ... Retentez votre chance.";
-            PlayerController.instance.Die();
+            StartCoroutine(PlayerController.instance.Die());
             CanvasBattle.SetActive(false);
 
         }
@@ -229,6 +238,7 @@ public class CombatSystem : MonoBehaviour
     IEnumerator EnnemyAttack()
     {
         animEnemy.SetTrigger("Attack");
+        AudioManager.instance.Play("EnemyAttack");
         if (IsDefenseActive)
         {
             int tempdamage = ennemystat.damage - PlayerStats.instance.ptsDefense;
@@ -247,7 +257,7 @@ public class CombatSystem : MonoBehaviour
         harryUI.SetHp(PlayerStats.instance.ptsVie);
 
         yield return new WaitForSeconds(3f);
-
+        Destroy(shield);
         if (PlayerStats.instance.ptsVie <= 0)
         {
             state = BattleState.LOST;

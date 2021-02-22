@@ -7328,7 +7328,7 @@ PrefabInstance:
     - target: {fileID: 3540644252409713160, guid: d8af763ec47baa348a142ed832804385,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3540644252409713161, guid: d8af763ec47baa348a142ed832804385,
         type: 3}
@@ -7434,6 +7434,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540644252722316090, guid: d8af763ec47baa348a142ed832804385,
+        type: 3}
+      propertyPath: m_Text
+      value: + 40 ptsVie
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540644253127872047, guid: d8af763ec47baa348a142ed832804385,
+        type: 3}
+      propertyPath: m_Text
+      value: PotionFortifiante
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3540644252409713162, guid: d8af763ec47baa348a142ed832804385, type: 3}

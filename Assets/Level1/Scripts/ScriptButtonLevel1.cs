@@ -49,16 +49,19 @@ public class ScriptButtonLevel1 : MonoBehaviour
                 if (UISpells != null)
                 {
                     UISpells.SetActive(true);
-                    PlayerStats.instance.AddPtsDefense(10);
                 }
                 break;
 
             case "ValidateProtego":
+                PlayerStats.instance.AddPtsDefense(10);
                 if (UISpells2 != null)
                 {
                     UISpells2.SetActive(true);
-                    PlayerStats.instance.AddPtsAttaque(10);
                 }
+                break;
+
+            case "ValidateStupefix":
+                PlayerStats.instance.AddPtsAttaque(10);
                 break;
 
             case "ButtonManager1":
@@ -69,6 +72,10 @@ public class ScriptButtonLevel1 : MonoBehaviour
                 break;
 
             case "Centaure":
+                LevelChanger.instance.FadeToNextLevel();
+                break;
+
+            case "Dumbledore":
                 LevelChanger.instance.FadeToNextLevel();
                 break;
 

@@ -23,9 +23,11 @@ public class EquipementInventory : MonoBehaviour
     {
         if (equipements.Count >= space)
             return;
-        equipements.Add(item);  
+        equipements.Add(item);
         if (onEquipChangedCallback != null)
+        {
             onEquipChangedCallback.Invoke();
+        }
     }
 
     

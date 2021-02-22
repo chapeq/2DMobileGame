@@ -16,6 +16,7 @@ public class DragOnTouch : MonoBehaviour
     {
         currentTime = timeStart;
        initialPos = transform.position;
+        Debug.Log("start pos" + initialPos);
         AudioManager.instance.Play("ButtonSelect");
         tr = GetComponentInChildren<TrailRenderer>();
        StartCoroutine(Timer());
@@ -38,6 +39,7 @@ public class DragOnTouch : MonoBehaviour
     {
         Debug.Log("Reset Circle");
         transform.position = initialPos;
+        Debug.Log("Reset pos" + transform.position);
         tr.Clear();
 
     }

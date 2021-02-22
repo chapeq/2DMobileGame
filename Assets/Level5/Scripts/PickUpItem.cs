@@ -15,6 +15,7 @@ public class PickUpItem : MonoBehaviour
     void TakeItem()
     {
         Inventory.instance.Add(item);
+        AudioManager.instance.Play("itemPickUp");
         Destroy(gameObject);
     }
 }

@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
-using UnityEditor.PackageManager.Requests;
+
 
 public class PotionGame : MonoBehaviour
 {

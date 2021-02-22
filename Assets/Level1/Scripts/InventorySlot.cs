@@ -8,6 +8,7 @@ public class InventorySlot : MonoBehaviour
     public Image icon;
     public Button infoButton;
     public GameObject tooltip;
+    private bool ShowTooltip = true;
 
     public void AddItem(Item newItem)
     {
@@ -27,20 +28,20 @@ public class InventorySlot : MonoBehaviour
 
     public void OnInfoButton()
     {
-        bool isTooltipShow = false;
-        if (tooltip != null && !isTooltipShow)
+        Debug.Log(ShowTooltip);
+        if (tooltip != null && ShowTooltip)
         {
-            isTooltipShow = true;
+            ShowTooltip = false;
             Text name = tooltip.transform.GetChild(0).GetComponent<Text>();
             Text HP = tooltip.transform.GetChild(1).GetComponent<Text>();
             name.text = item.name;
             HP.text = "+ " + item.GetPtsVie() + " ptsVie";
             tooltip.SetActive(true);
         }
-        else if (isTooltipShow)
+        else if (!ShowTooltip)
         {
             tooltip.SetActive(false);
-            isTooltipShow = false;
+            ShowTooltip = true;
         }
     }
 

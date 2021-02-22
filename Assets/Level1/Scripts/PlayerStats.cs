@@ -7,11 +7,11 @@ public class PlayerStats : MonoBehaviour
 {
     public static PlayerStats instance;
 
-    public int ptsAttaque;
-    public int ptsDefense;
-    public int ptsVie;
-    public int ptsVieMax;
-    public int lvl; 
+    public int ptsAttaque =0;
+    public int ptsDefense = 0;
+    public int ptsVie  = 100;
+    public int ptsVieMax= 100;
+    public int lvl = 1; 
 
     public Text TextAttaque;
     public Text TextDefense;
@@ -24,15 +24,6 @@ public class PlayerStats : MonoBehaviour
         if (instance != null)
             return;
         instance = this;
-    }
-
-    private void Start()
-    {
-        ptsAttaque = 0;
-        ptsDefense = 0;
-        ptsVieMax = 100;
-        ptsVie = ptsVieMax;
-        lvl = 1; 
     }
 
    
